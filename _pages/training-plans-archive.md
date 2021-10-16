@@ -1,32 +1,44 @@
 ---
 title: Training Plans
-layout: page
 permalink: "/coaching/plans-archived"
+layout: page
 feature-image: "/uploads/107846252_1478107939044005_3502678647649020939_o.jpg"
 plans:
 - title: 100mi
   subtitle: 6-Month Training Plan
   feature-image: "/uploads/67098415_1178652272322908_4426996145457201152_o.jpg"
-  description: Patrick focuses on coaching athletes looking to run ultramarathons. As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions, one on one support to help determine race scheduling, training load and nutrition guidance, and receive discounts to some of Patrick’s sponsors.
-  price: $79
-  url: /coaching/private
+  description: Patrick focuses on coaching athletes looking to run ultramarathons.
+    As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions,
+    one on one support to help determine race scheduling, training load and nutrition
+    guidance, and receive discounts to some of Patrick’s sponsors.
+  price: "$79"
+  url: "/coaching/private"
 - title: 100km
   subtitle: 6-Month Training Plan
   feature-image: "/uploads/84561534_2780225315367670_1043716235914641408_o.jpg"
-  description: Patrick focuses on coaching athletes looking to run ultramarathons. As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions, one on one support to help determine race scheduling, training load and nutrition guidance, and receive discounts to some of Patrick’s sponsors.
-  price: $79
-  url: /coaching/private
+  description: Patrick focuses on coaching athletes looking to run ultramarathons.
+    As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions,
+    one on one support to help determine race scheduling, training load and nutrition
+    guidance, and receive discounts to some of Patrick’s sponsors.
+  price: "$79"
+  url: "/coaching/private"
 - title: 50mi & 50km
   subtitle: 3-Month Training Plan
   feature-image: "/uploads/IAU 100K Finish Photocredit-Adrienne Berkland.jpg"
-  description: Patrick focuses on coaching athletes looking to run ultramarathons. As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions, one on one support to help determine race scheduling, training load and nutrition guidance, and receive discounts to some of Patrick’s sponsors.
-  price: $79
-  url: /coaching/private
+  description: Patrick focuses on coaching athletes looking to run ultramarathons.
+    As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions,
+    one on one support to help determine race scheduling, training load and nutrition
+    guidance, and receive discounts to some of Patrick’s sponsors.
+  price: "$79"
+  url: "/coaching/private"
 - title: Strength & Recovery
   feature-image: "/uploads/Oy.jpg"
-  description: Patrick focuses on coaching athletes looking to run ultramarathons. As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions, one on one support to help determine race scheduling, training load and nutrition guidance, and receive discounts to some of Patrick’s sponsors.
-  price: $79
-  url: /coaching/private
+  description: Patrick focuses on coaching athletes looking to run ultramarathons.
+    As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions,
+    one on one support to help determine race scheduling, training load and nutrition
+    guidance, and receive discounts to some of Patrick’s sponsors.
+  price: "$79"
+  url: "/coaching/private"
   notice: Free!
 ---
 

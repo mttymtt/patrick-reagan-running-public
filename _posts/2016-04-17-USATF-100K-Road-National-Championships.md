@@ -1,7 +1,8 @@
 ---
 title: USATF 100K Road National Championships
 date: 2016-04-17 00:00:00 Z
-category: Race Recap
+categories:
+- Race Recap
 ---
 
 Time for reflection is an essential part of training I often take for granted when getting caught up in daily training and race preparation. At the end of huge training blocks/cycles that are often highlighted with marquee races, I've found solace in taking time afterward to reflect on the body of work. Our sport is a spiritual endeavor that combines mental and physical dedication on a daily, often hourly basis. Disconnecting from the body of work is difficult during training, but has become a meditative activity for me during periods of rest/recovery thereafter.

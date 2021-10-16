@@ -1,7 +1,8 @@
 ---
 title: Road Racing Season Review
 date: 2016-02-16 00:00:00 Z
-category: Race Recap
+categories:
+- Race Recap
 ---
 
 My 2015-16 road racing season has come to a climactic end with a 33rd place finish at the Olympic Trials Marathon. The past few days have given me some time to reflect on my first trials experience and the road racing season as an entire body of work.
