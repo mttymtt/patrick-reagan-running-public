@@ -1,0 +1,72 @@
+---
+title: Journal
+layout: base
+nav: left
+order: 4
+---
+
+{% include header.html %}
+
+<div class="content-container">
+  <div class="content">
+    <div class="blog-index">
+      {% for post in site.posts limit:6 %}
+        <a class="blog-post" href="{{ post.url }}">
+          {% if post.feature-image %}
+          <div class="feature-image">
+            <div class="crop crop-5x4">
+              <div>
+                <img src="{{ post.feature-image }}">
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <div class="feature-placeholder">
+            <div class="massive-title">{{ post.title }}</div>
+          </div>
+          {% endif %}
+          <div class="post-info">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <div class="post-excerpt">
+              {{ post.content | markdownify | strip_html | truncate: 200 }}
+            </div>
+            <div class="post-meta">
+              {% if post.category %}
+                <div class="post-category-container">
+                  <div class="post-category">
+                    <span>{{ post.category }}</span>
+                  </div>
+                  <span class="arrow">
+                    <svg width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H20" stroke="black"/><path d="M16 1L20 5L16 9" stroke="black"/></svg>
+                  </span>
+                </div>
+              {% endif %}
+
+              <time>
+                {% assign d = post.date | date: "%-d" %}
+                {{ post.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
+              </time>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <h1 class="blog-archive">Archive</h1>
+
+    <div class="blog-archive">
+      {% for post in site.posts offset:6 %}
+        <a class="blog-post" href="{{ post.url }}">
+          <h2 class="post-title">{{ post.title }}</h2>
+          <hr />
+          <time>
+            {% assign d = post.date | date: "%-d" %}
+            {{ post.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
+          </time>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

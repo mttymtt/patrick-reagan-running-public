@@ -1,0 +1,25 @@
+{% include callout-coaching.html %}
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-section motto">
+      <h1>Ultras Aren’t<br>Run Alone</h1>
+    </div>
+    <div class="footer-section">
+      <h3>General</h3>
+      {% for item in site.data.nav.left %}
+          <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+      {% for item in site.data.nav.right %}
+          <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-section">
+      <h3>Social Media</h3>
+      <a href="{{ site.strava_URL }}">Strava</a>
+      <a href="{{ site.instagram_URL }}">Instagram</a>
+      <a href="{{ site.twitter_URL }}">Twitter</a>
+      <a href="{{ site.facebook_URL }}">Facebook</a>
+    </div>
+  </div>
+</footer>

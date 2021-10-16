@@ -1,0 +1,60 @@
+  {% include head.html %}
+
+  <body id="{{ page.title | slugify }}" class="{% if page.layout == "post" %}blog-post{% endif %}">
+    {{ content }}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+
+  <script src="/assets/js/moment.js"></script>
+
+  {% if page.custom-js %}
+    {% for js in page.custom-js %}
+      <script src="/assets/js/custom/{{ js.source }}.js"></script>
+    {% endfor %}
+  {% endif %}
+
+  <script>
+    let scrollpos = window.scrollY
+    const mobileHeader = document.querySelector("header.mobile")
+    const mobileHeader_height = mobileHeader.offsetHeight
+
+    const desktopHeader = document.querySelector("header.desktop")
+    const desktopHeader_height = desktopHeader.offsetHeight
+
+    const mobile_add = () => mobileHeader.classList.add("scrolled")
+    const mobile_remove = () => mobileHeader.classList.remove("scrolled")
+
+    const desktop_add = () => desktopHeader.classList.add("scrolled")
+    const desktop_remove = () => desktopHeader.classList.remove("scrolled")
+
+    window.addEventListener('scroll', function() {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= mobileHeader_height) { mobile_add() }
+      else { mobile_remove() };
+
+      if (scrollpos >= desktopHeader_height) { desktop_add() }
+      else { desktop_remove() }
+    });
+
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      var header = document.querySelector("header");
+      if (header.classList.contains('open')) {
+       header.classList.remove('open');
+      } else {
+        header.classList.add('open');
+      }
+    });
+  </script>
+</html>

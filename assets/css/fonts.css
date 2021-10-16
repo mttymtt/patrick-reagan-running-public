@@ -1,0 +1,234 @@
+.wght100 {
+  font-weight: 100;
+}
+
+.wght200 {
+  font-weight: 200;
+}
+
+.wght300 {
+  font-weight: 300;
+}
+
+.wght400 {
+  font-weight: 400;
+}
+
+.wght500 {
+  font-weight: 500;
+}
+
+.wght700 {
+  font-weight: 700;
+}
+
+.wght800 {
+  font-weight: 800;
+}
+
+.wght900 {
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Infra.woff2') format('woff2');
+  font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-InfraOblique.woff2') format('woff2');
+  font-weight: 100;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Thin.woff2') format('woff2');
+  font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-ThinOblique.woff2') format('woff2');
+  font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Light.woff2') format('woff2');
+  font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-LightOblique.woff2') format('woff2');
+  font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Regular.woff2') format('woff2');
+  font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-RegularOblique.woff2') format('woff2');
+  font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Dark.woff2') format('woff2');
+  font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-DarkOblique.woff2') format('woff2');
+  font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Bold.woff2') format('woff2');
+  font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-BoldOblique.woff2') format('woff2');
+  font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Black.woff2') format('woff2');
+  font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-BlackOblique.woff2') format('woff2');
+  font-weight: 800;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-Ultra.woff2') format('woff2');
+  font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nichrome';
+  src: url('../fonts/MDNichrome-UltraOblique.woff2') format('woff2');
+  font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'Really Sans';
+  src: url('../fonts/ReallySansSmallTrial-Regular.woff2') format('woff2');
+  font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Really Sans';
+  src: url('../fonts/ReallySansSmallTrial-Italic.woff2') format('woff2');
+  font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Really Sans';
+  src: url('../fonts/ReallySansSmallTrial-Bold.woff2') format('woff2');
+  font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Really Sans';
+  src: url('../fonts/ReallySansSmallTrial-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Lyyra';
+	src: url('../fonts/lyyra.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Lyyra';
+	src: url('../fonts/lyyra-extended-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Pitch';
+	src: url('../fonts/PitchTest-Medium.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Fade';
+	src: url('../fonts/Fade0.007-Regular.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}

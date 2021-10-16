@@ -1,0 +1,38 @@
+<header class="mobile {% if page.feature-image %}cover{% endif %}">
+  <div class="bar">
+    <div class="site-title">
+      <a href="/"><h1>Patrick Reagan Running</h1></a>
+    </div>
+    <button class="menu-toggle" id="menu-toggle" type="button">Menu</button>
+  </div>
+
+  <div class="nav">
+    {% for item in site.data.nav.left %}
+        <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+    {% for item in site.data.nav.right %}
+        <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </div>
+</header>
+
+<header class="desktop {% if page.feature-image %}cover{% endif %}">
+  <div class="bar">
+    <div class="nav">
+      {% for item in site.data.nav.left %}
+          <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="site-title">
+      <a href="/"><h1>Patrick Reagan Running</h1></a>
+    </div>
+
+    <div class="nav">
+      {% for item in site.data.nav.right %}
+          <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+</header>

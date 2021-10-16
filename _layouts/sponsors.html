@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.sponsors %}
+  <div class="spons-container">
+
+  {% for sponsor in page.sponsors %}
+    {% if sponsor.url %}
+    <a class="spons {% if sponsor.size == "large" %}large{% else %}small{% endif %}" href="{{ sponsor.url }}" target="_blank">
+    {% else %}
+    <div class="spons {% if sponsor.size == "large" %}large{% else %}small{% endif %}">
+    {% endif %}
+      {% if sponsor.logo %}
+        <div class="spons-logo">
+          <div>
+            <img alt="{{ sponsor.name }}" src="{{ sponsor.logo }}">
+          </div>
+        </div>
+      {% else %}
+        <h2 class="sponsor-name">{{ sponsor.name }}</h2>
+      {% endif %}
+
+      {% comment %}
+      <p class="spons-description">
+        {% if sponsor.description %}
+          {{ sponsor.description }}
+        {% endif %}
+      </p>
+      {% endcomment %}
+
+    {% if sponsor.url %}
+    </a>
+    {% else %}
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  </div>
+{% endif %}

@@ -1,0 +1,42 @@
+---
+title: Patrick Reagan Running
+timezone: UTC
+collections:
+  pages:
+    title: Custom Pages
+    output: true
+    permalink: "/:name"
+  shop:
+    title: Shop
+    output: true
+    permalink: "/:name"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/journal/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+description: Test site for Patrick
+baseurl: ''
+email: patrickreaganrunning@gmail.com
+instagram_username: patrickreaganrunning
+instagram_URL: https://instagram.com/patrickreaganrunning
+twitter_username: preaganrunning
+twitter_URL: https://twitter.com/preaganrunning
+strava_username: Patrick Reagan
+strava_URL: https://www.strava.com/pros/10014836
+facebook_username: patrickreaganrunning
+facebook_URL: https://www.facebook.com/patrickreaganrunning

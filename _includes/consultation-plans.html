@@ -1,0 +1,84 @@
+<div class="section-info">
+  <h1 class="section-title">Consultation</h1>
+</div>
+
+{% assign counter = 0 %}
+{% for plan in shop.plans %}
+  {% if plan.category == "Consultation" %}
+    {% assign counter = counter | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="cards-container training-plans consultation-plans" style="--card-count: {% if counter > 4 %}4{% else %}{{ counter }}{% endif %}">
+  {% for plan in site.shop %}
+    {% if plan.category == "Consultation" %}
+      <a class="section" href="{{ plan.url }}">
+        {% if plan.plan-image %}
+          <div class="book">
+            <div class="card-image">
+              <div class="crop crop-5x4">
+                <div>
+                  <img src="{{ plan.plan-image }}">
+                </div>
+              </div>
+            </div>
+
+            <div class="card-title">
+              <h2>{{ plan.plan-title }}</h2>
+            </div>
+
+            {% if plan.plan-notice %}
+              <div class="card-notice">
+                {{ plan.plan-notice }}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="card-info">
+          <div class="card-title">
+            <h2>{{ plan.plan-title }}</h2>
+          </div>
+          {% if plan.plan-subtitle %}
+            <div class="card-subtitle">
+              <h3>{{ plan.plan-subtitle }}</h3>
+            </div>
+          {% endif %}
+          <div class="card-price">
+            {{ plan.plan-price }}
+          </div>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+<div class="consultation-container">
+{% for plan in site.shop %}
+  {% if plan.category == "Consultation" %}
+    <div class="podcast-container">
+      <div class="podcast-image">
+        <div class="crop crop-5x4">
+          <div>
+            <img src="{{ plan.plan-image }}">
+          </div>
+        </div>
+      </div>
+
+      <div class="podcast-info">
+        <div class="podcast-details">
+          <div class="podcast-title">
+            <h2>{{ plan.plan-title }}</h2>
+          </div>
+          <div class="podcast-description">
+            <p>{{ plan.plan-subtitle }}</p>
+          </div>
+          <div class="button">
+            <a href="{{ plan.url }}">Book a consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

@@ -1,0 +1,14 @@
+left:
+  - name: Coaching
+    url: /coaching
+  - name: About
+    url: /about
+  - name: Contact
+    url: /contact
+right:
+  - name: Sponsors
+    url: /sponsors
+  - name: Racing
+    url: /racing
+  - name: Media
+    url: /media

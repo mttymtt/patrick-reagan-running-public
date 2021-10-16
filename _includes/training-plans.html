@@ -1,0 +1,69 @@
+<div class="section-info">
+  <h1 class="section-title">Training Plans</h1>
+  <div class="section-description">
+    <p>Patrick focuses on coaching athletes looking to run ultramarathons. As one of Patrick’s clients, athletes can expect detailed weekly training prescriptions, one on one support to help determine race scheduling, training load and nutrition guidance, and receive discounts to some of Patrick’s sponsors.</p>
+  </div>
+</div>
+
+{% assign counter = 0 %}
+{% for plan in site.shop %}
+  {% if plan.category == "Plan" %}
+    {% assign counter = counter | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign threes = "3,5,9" | split: ',' %}
+
+{% if counter > 2 %}
+  {% capture counter %}{{ counter }}{% endcapture %}
+  {% if threes contains counter %}
+    {% assign counter = 3 %}
+  {% else %}
+    {% assign counter = 4 %}
+  {% endif %}
+{% endif %}
+
+{% assign sorted = site.shop | sort: 'order' %}
+
+<div class="cards-container training-plans" style="--card-count:{{ counter }}">
+  {% for plan in sorted %}
+    {% if plan.category == "Plan" %}
+      <a class="section" href="{{ plan.url }}">
+        {% if plan.plan-image %}
+          <div class="book">
+            <div class="card-image">
+              <div class="crop crop-4x5">
+                <div>
+                  <img src="{{ plan.plan-image }}">
+                </div>
+              </div>
+            </div>
+
+            <div class="card-title">
+              <h2>{{ plan.plan-title }}</h2>
+            </div>
+
+            {% if plan.plan-notice %}
+              <div class="card-notice">
+                {{ plan.plan-notice }}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="card-info">
+          <div class="card-title">
+            <h2>{{ plan.plan-title }}</h2>
+          </div>
+          {% if plan.plan-subtitle %}
+            <div class="card-subtitle">
+              <h3>{{ plan.plan-subtitle }}</h3>
+            </div>
+          {% endif %}
+          <div class="card-price">
+            {{ plan.plan-price }}
+          </div>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

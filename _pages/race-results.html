@@ -1,0 +1,59 @@
+---
+title: Race Results
+layout: page
+nav: right
+order: 1
+feature-image: "/uploads/Howie-Stern_04.jpg"
+feature-credit: Howie Stern
+feature-credit-link: http://www.howiestern.com
+---
+
+{% assign race-results = site.data.race-results | sort: 'date' | reverse %}
+
+<div class="width-s">
+  {% assign i = -1 %}
+  {% for race in race-results %}
+    {% assign i = i | plus:1 %}
+    {% assign next_i = i | plus:1 %}
+
+    {% capture this_year %}{{ race-results[i].date | date: "%Y" }}{% endcapture %}
+    {% capture prev_year %}{{ race-results[next_i].date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+      <h3>{{ this_year}}</h3>
+      <div class="list race-table">
+    {% endif %}
+
+      {% if race.url %}
+        <a class="item" href="{{ race.url }}">
+      {% else %}
+        <div class="item">
+      {% endif %}
+          <div class="details">
+            <div class="name">{{ race.name }}</div>
+            <time>
+              {% assign d = race.date | date: "%-d" %}
+              {{ race.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ race.date | date: "%Y" }}
+            </time>
+          </div>
+          <div class="meta">
+            <div class="type">{{ race.distance }}</div>
+            <div class="type">{{ race.time }}</div>
+          </div>
+      {% if race.url %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+
+    {% if forloop.last %}
+      {% else %}
+      {% unless this_year == prev_year %}
+        </div>
+        <h3>{{ prev_year}}</h3>
+        <div class="list race-table">
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
