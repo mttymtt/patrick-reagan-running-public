@@ -6,14 +6,14 @@ collections:
     title: Custom Pages
     output: true
     permalink: "/:name"
+  dataMedia:
+    title: Media Data
+    output: false
   posts:
     title: Posts
     output: true
   dataRacing:
     title: Racing Data
-    output: false
-  dataMedia:
-    title: Media Data
     output: false
   shop:
     title: Shop
