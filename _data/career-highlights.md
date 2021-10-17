@@ -1,3 +1,4 @@
+---
 - name: "Javelina Jundred 100mi Champion"
   place: "1st"
   description: "Course record set in 2017"
@@ -20,3 +21,4 @@
   year: "2016"
 
 - name: "2x NCAA Division II Cross Country All-American"
+---
