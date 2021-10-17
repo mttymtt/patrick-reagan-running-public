@@ -9,7 +9,7 @@ collections:
   posts:
     title: Posts
     output: true
-  data-racing:
+  dataRacing:
     title: Racing Data
     output: false
   shop:
