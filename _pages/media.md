@@ -34,7 +34,8 @@ custom-js:
   </div>
 </div>
 
-{% assign features_list = site.data.features | sort: 'date' | reverse %}
+{% assign features = site.dataMedia | where: 'title', 'Featured On' %}
+{% assign features = features[0].features | sort: 'date' | reverse %}
 
 <div class="width-l row space gutter-l">
   <div class="col col-1of2 sticky">
@@ -50,7 +51,7 @@ custom-js:
   <div class="col col-1of2 sticky">
     <h3>Featured On</h3>
     <div class="list features">
-      {% for feature in features_list limit:5 %}
+      {% for feature in features limit:5 %}
         {% if feature.url %}
           <a class="item" href="{{ feature.url }}">
         {% else %}
@@ -75,7 +76,7 @@ custom-js:
       {% endfor %}
     </div>
     <div class="button">
-      <a href="">View More</a>
+      <a href="/features">View More</a>
     </div>
   </div>
 </div>

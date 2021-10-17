@@ -1,5 +1,6 @@
 ---
 title: Featured On
+features:
 - name: "Stringing Hundreds"
   url: https://www.hokaoneone.com/blog-post/?id=stringing-hundreds-patrick-reagan
   date: 2020-08-24
