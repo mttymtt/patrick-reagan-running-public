@@ -8,11 +8,14 @@ feature-credit: Howie Stern
 feature-credit-link: http://www.howiestern.com
 ---
 
-{% assign race-schedule = site.data.race-schedule | sort: 'date' | reverse %}
+{% assign race-schedule = site.dataRacing | where: 'title', 'Race Schedule' %}
+{% assign race-schedule = race-schedule[0].races | sort: 'date' | reverse %}
 
-{% assign race-results = site.data.race-results | sort: 'date' | reverse %}
+{% assign race-results = site.dataRacing | where: 'title', 'Race Results' %}
+{% assign race-results = race-results[0].races | sort: 'date' | reverse %}
 
-{% assign career-highlights = site.data.career-highlights %}
+{% assign career-highlights = site.dataRacing | where: 'title', 'Career Highlights' %}
+{% assign career-highlights = career-highlights[0].highlights %}
 
 <div class="row gutter-l width-l space">
   <div class="col col-1of2 sticky">

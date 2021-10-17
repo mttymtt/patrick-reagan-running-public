@@ -8,7 +8,8 @@ feature-credit: Howie Stern
 feature-credit-link: http://www.howiestern.com
 ---
 
-{% assign race-results = site.data.race-results | sort: 'date' | reverse %}
+{% assign race-results = site.dataRacing | where: 'title', 'Race Results' %}
+{% assign race-results = race-results[0].races | sort: 'date' | reverse %}
 
 <div class="width-s">
   {% assign i = -1 %}
