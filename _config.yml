@@ -6,12 +6,12 @@ collections:
     title: Custom Pages
     output: true
     permalink: "/:name"
-  data-racing:
-    title: Racing Data
-    output: false
   posts:
     title: Posts
     output: true
+  data-racing:
+    title: Racing Data
+    output: false
   shop:
     title: Shop
     output: true
