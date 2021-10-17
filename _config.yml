@@ -12,6 +12,9 @@ collections:
   dataRacing:
     title: Racing Data
     output: false
+  dataMedia:
+    title: Media Data
+    output: false
   shop:
     title: Shop
     output: true
