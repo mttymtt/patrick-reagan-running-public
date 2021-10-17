@@ -2,13 +2,13 @@
 title: Patrick Reagan Running
 timezone: UTC
 collections:
-  dataleaf:
-    title: Data
-    output: false
   pages:
     title: Custom Pages
     output: true
     permalink: "/:name"
+  dataleaf:
+    title: Data
+    output: false
   posts:
     title: Posts
     output: true
