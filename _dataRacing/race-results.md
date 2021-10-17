@@ -1,3 +1,6 @@
+---
+title: Race Results
+races:
 - name: "Western States"
   url: https://ultrasignup.com/results_event.aspx?did=79446#id948761
   distance: "100mi"
@@ -82,3 +85,4 @@
   overall-place: 8
   gender-place: 8
   time: "15:54:31"
+---

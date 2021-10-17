@@ -1,3 +1,6 @@
+---
+title: Race Schedule
+races:
 - name: "Jackpot Ultra"
   url: https://ultrasignup.com/entrants_event.aspx?did=86313#id948761
   distance: "100mi"
@@ -9,3 +12,4 @@
   distance: "100mi"
   location: "Vienna, IL"
   date: 2021-11-21
+---
