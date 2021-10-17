@@ -6,8 +6,8 @@ collections:
     title: Custom Pages
     output: true
     permalink: "/:name"
-  dataleaf:
-    title: Data
+  data-racing:
+    title: Racing Data
     output: false
   posts:
     title: Posts
