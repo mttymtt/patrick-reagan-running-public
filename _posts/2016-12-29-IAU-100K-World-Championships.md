@@ -1,8 +1,9 @@
 ---
 title: IAU 100K World Championships
 date: 2016-12-29 00:00:00 Z
+categories:
+- Race Recap
 feature-image: "/uploads/IAU 100K Finish Photocredit-Adrienne Berkland.jpg"
-category: Race Recap
 ---
 
 ![Photo/Design Credit: Jon Holtz](/uploads/IAU 100K-Reagan_Worlds100k-Photocredit Jon Holtz.JPG)

@@ -6,13 +6,13 @@ collections:
     title: Custom Pages
     output: true
     permalink: "/:name"
+  posts:
+    title: Posts
+    output: true
   shop:
     title: Shop
     output: true
     permalink: "/:name"
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true

@@ -1,7 +1,7 @@
 ---
 title: Training Plans
-layout: page
 permalink: "/coaching/plans"
+layout: page
 ---
 
 {% include training-plans.html %}

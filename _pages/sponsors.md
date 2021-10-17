@@ -57,3 +57,4 @@ sponsors:
   logo: "/uploads/UTWT_light_positif.png"
   url: https://www.ultratrail-worldtour.com/
 ---
+
