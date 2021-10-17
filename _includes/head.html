@@ -25,5 +25,11 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/fonts.css">
 
+    {% if page.custom-css %}
+      {% for css in page.custom-css %}
+        <link rel="stylesheet" href="/assets/css/custom/{{ css.source }}.css">
+      {% endfor %}
+    {% endif %}
+
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>

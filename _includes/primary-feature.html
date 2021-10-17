@@ -1,42 +1,44 @@
 {% if page.feature-image %}
-  <div class="primary-feature">
-      <div class="feature-image">
+  <div class="cover-container">
+      <div class="image">
         <div class="crop">
           <div>
             <img src="{{ page.feature-image }}">
           </div>
         </div>
         {% if page.feature-credit %}
-          <div class="feature-credit">
+          <div class="photo-credit">
             Photo: {% if page.feature-credit-link %}<a href="{{ page.feature-credit-link }}" target="_blank">{% endif %}{{ page.feature-credit }}{% if page.feature-credit-link %}</a>{% endif %}
           </div>
         {% endif %}
       </div>
 
     {% if page.title %}
-      <div class="feature-card">
+      <div class="cover-content-container">
         {% if page.category %}
           <div class="post-category">
             <span>{{ page.category }}</span>
           </div>
         {% endif %}
 
-        <h1 class="feature-title">
-          {% unless page.feature-headline %}
-            {{ page.title }}
-          {% else %}
-            {{ page.feature-headline }}
-          {% endunless %}
-        </h1>
+        <div class="cover-title">
+          <h1>
+            {% unless page.feature-headline %}
+              {{ page.title }}
+            {% else %}
+              {{ page.feature-headline }}
+            {% endunless %}
+          </h1>
+        </div>
 
         {% if page.feature-description %}
-          <div class="feature-description">
+          <div class="cover-content">
             {{ page.feature-description }}
           </div>
         {% endif %}
 
         {% if page.feature-cta %}
-          <div class="feature-cta">
+          <div class="cover-cta">
             {% for cta in page.feature-cta %}
               <div class="button">
                 <a href="{{ cta.link }}">{{ cta.copy }}</a>
