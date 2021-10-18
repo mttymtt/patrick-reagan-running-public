@@ -1,3 +1,11 @@
+:root {
+  --font-body: sans-serif;
+}
+
+#coming-soon {
+  min-height: 100vh;
+}
+
 #coming-soon .cover-container .image .crop {
   padding-bottom: 100vh;
 }
