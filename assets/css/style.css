@@ -1240,6 +1240,7 @@ Cover Image
 }
 
 .cover-content-container .cover-content {
+  margin-top: var(--spacing-s);
   max-width: var(--width-s);
   text-align: center;
   width: 100%;

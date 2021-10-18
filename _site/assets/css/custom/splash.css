@@ -6,6 +6,10 @@
   min-height: 100vh;
 }
 
+#coming-soon .cover-container .image::before {
+  background: rgba(0,0,0,0.5);
+}
+
 #coming-soon .cover-container .image .crop {
   padding-bottom: 100vh;
 }
@@ -13,5 +17,8 @@
 #coming-soon .cover-content-container {
   align-self: center;
   bottom: auto;
-  max-width: var(--width-s);
+}
+
+#coming-soon h1 {
+  line-height: 0.8;
 }

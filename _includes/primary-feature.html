@@ -33,7 +33,7 @@
 
         {% if page.feature-description %}
           <div class="cover-content">
-            {{ page.feature-description }}
+            {{ page.feature-description | markdownify }}
           </div>
         {% endif %}
 
