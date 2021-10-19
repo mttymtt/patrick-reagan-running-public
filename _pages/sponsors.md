@@ -5,9 +5,6 @@ cover:
   image: "/uploads/e69668fe-708c-4ff9-987b-f2640347e064.JPG"
   credit: Foon Fu
   credit-link: http://www.foonfu.com
-feature-image: "/uploads/e69668fe-708c-4ff9-987b-f2640347e064.JPG"
-feature-credit: Foon Fu
-feature-credit-link: http://www.foonfu.com
 sponsors:
 - name: HOKA ONE ONE
   description: Hoka One One is my main sponsor. I cover all miles of my training and

@@ -10,11 +10,11 @@ layout: base
     <div class="blog-index">
       {% for post in site.posts limit:6 %}
         <a class="blog-post" href="{{ post.url }}">
-          {% if post.feature-image %}
+          {% if post.cover %}
           <div class="feature-image">
             <div class="crop crop-5x4">
               <div>
-                <img src="{{ post.feature-image }}">
+                <img src="{{ post.cover }}">
               </div>
             </div>
           </div>

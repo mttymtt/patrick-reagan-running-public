@@ -3,7 +3,8 @@ title: Enjoying the Process—UltraVasan 90K
 date: 2016-08-26 00:00:00 Z
 categories:
 - Training
-feature-image: "/uploads/UltraVasan SprintPris.jpg"
+cover:
+  image: "/uploads/UltraVasan SprintPris.jpg"
 ---
 
 My summer trail racing season has come to a close with the 2016 UltraVasan 90K.  The UltraVasan has two race distance classifications (45/90K) and is the summer sister race of the historic Vasaloppet cross country skiing race held every March.  The race begins in Salen and finishes in Mora Sweden....covering a trail rich in Swedish cultural history.  You can read more about King Gustav Vasa [here](https://en.wikipedia.org/wiki/Gustav_I_of_Sweden) and read more about the Vasaloppet/UltraVasan races [here](http://www.vasaloppet.se/en/).

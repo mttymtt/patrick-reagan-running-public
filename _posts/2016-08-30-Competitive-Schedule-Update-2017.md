@@ -3,7 +3,8 @@ title: 'Competitive Schedule Update: 2017'
 date: 2016-08-30 00:00:00 Z
 categories:
 - Schedule
-feature-image: "/uploads/wormsloe.jpg"
+cover:
+  image: "/uploads/wormsloe.jpg"
 ---
 
 Race | Date | Location

@@ -3,7 +3,8 @@ title: Comrades Marathon 2017 - UP UP UP!
 date: 2017-06-30 00:00:00 Z
 categories:
 - Race Recap
-feature-image: "/uploads/Comrades-d248d2e19f5a285323867dd63a557198_DSC_9441.JPG"
+cover:
+  image: "/uploads/Comrades-d248d2e19f5a285323867dd63a557198_DSC_9441.JPG"
 ---
 
 Zinikele is the best starting point for this blog entry today. The english translation is (roughly), It Takes All of You. The Comrades Marathon is the oldest and biggest ultramarathon in the world. How does it feel to line up with 21,000 other runners committing to an 87 Kilometer Race at a blistering pace on the road? Kind of like this…
