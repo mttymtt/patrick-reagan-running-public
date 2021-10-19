@@ -1,11 +1,10 @@
 ---
 title: Coaching
 layout: page
-nav: left
-order: 1
-feature-image: "/uploads/Andy-Cochrane_IMG_2498.JPG"
-feature-credit: Andy Cochrane
-feature-credit-link: https://www.andrewfitts.com
+cover:
+  image: "/uploads/Andy-Cochrane_IMG_2498.JPG"
+  credit: Andy Cochrane
+  credit-link: https://www.andrewfitts.com
 cards:
 - name: Premium
   subtitle: Personalized Monthly Coaching

@@ -1,7 +1,8 @@
 ---
 title: Comrades Marathon 2017 - UP UP UP!
 date: 2017-06-30 00:00:00 Z
-feature-image: "/uploads/Comrades-d248d2e19f5a285323867dd63a557198_DSC_9441.JPG"
+cover:
+  image: "/uploads/Comrades-d248d2e19f5a285323867dd63a557198_DSC_9441.JPG"
 category: Race Recap
 ---
 

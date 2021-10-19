@@ -2,7 +2,8 @@
 title: Consultation
 permalink: "/coaching/consultation"
 layout: page
-feature-image: "/uploads/107846252_1478107939044005_3502678647649020939_o.jpg"
+cover:
+  image: "/uploads/107846252_1478107939044005_3502678647649020939_o.jpg"
 ---
 
 In addition to monthly coaching, Patrick offers 1 hour consultation calls where he will work with individuals to help them develop their own training plan and race schedule.

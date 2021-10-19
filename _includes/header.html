@@ -1,4 +1,4 @@
-<header class="mobile {% if page.feature-image %}cover{% endif %}">
+<header class="mobile {% if page.cover %}cover{% endif %}">
   <div class="bar">
     <div class="site-title">
       <a href="/home"><h1>Patrick Reagan Running</h1></a>
@@ -16,7 +16,7 @@
   </div>
 </header>
 
-<header class="desktop {% if page.feature-image %}cover{% endif %}">
+<header class="desktop {% if page.cover %}cover{% endif %}">
   <div class="bar">
     <div class="nav">
       {% for item in site.data.nav.left %}

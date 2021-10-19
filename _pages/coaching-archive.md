@@ -1,7 +1,8 @@
 ---
 title: Coaching
 layout: page
-feature-image: "/uploads/107846252_1478107939044005_3502678647649020939_o.jpg"
+cover:
+  image: "/uploads/107846252_1478107939044005_3502678647649020939_o.jpg"
 ---
 
 Currently, Patrick coaches private clients in addition to his race schedule.

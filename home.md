@@ -1,14 +1,15 @@
 ---
 title: Home
 layout: page
-feature-image: "/uploads/Andy-Cochrane_A36A0401.jpg"
-feature-credit: Andy Cochrane
-feature-credit-link: https://www.instagram.com/andrewfitts/
-feature-headline: Ultras Aren’t Run&nbsp;Alone
-feature-description: 
-feature-cta:
-- copy: Coaching Services
-  link: "/coaching"
+cover:
+  image: "/uploads/Andy-Cochrane_A36A0401.jpg"
+  credit: Andy Cochrane
+  credit-link: https://www.instagram.com/andrewfitts/
+  headline: Ultras Aren’t Run&nbsp;Alone
+  description:
+  cta:
+    copy: Coaching Services
+    link: "/coaching"
 ---
 
 <section>

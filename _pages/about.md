@@ -1,11 +1,10 @@
 ---
 title: About
-nav: left
-order: 1
-feature-image: "/uploads/Javelina_2019_Paul-Nelson_02.jpg"
-feature-credit: Paul Nelson
-feature-credit-link: https://paulnelson.smugmug.com
 layout: page
+cover:
+  image: "/uploads/Javelina_2019_Paul-Nelson_02.jpg"
+  credit: Paul Nelson
+  credit-link: https://paulnelson.smugmug.com
 ---
 
 <section class="mb-exterior" markdown="1">
