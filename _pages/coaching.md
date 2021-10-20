@@ -10,8 +10,8 @@ coaches:
   headshot:
     image: "/uploads/Howie-Stern_03.jpg"
     credit: Howie Stern
-    credit-url: "https://www.howiestern.com"
-  bio-text:
+    credit-url: https://www.howiestern.com
+  bio-text: 
   tiers:
   - name: Premium
     subtitle: Personalized Monthly Coaching
@@ -40,8 +40,9 @@ coaches:
     description: Build a 12-week training plan tailored to you
     price: "$70"
     perks:
-    - One Hour call to discuss training concepts, weekly training, race schedule, race
-      day nutrition program, proper thermoregulation/topical cooling for hot weather
-      races, or any other ultra running specific topics you may have.
+    - One Hour call to discuss training concepts, weekly training, race schedule,
+      race day nutrition program, proper thermoregulation/topical cooling for hot
+      weather races, or any other ultra running specific topics you may have.
     url: "/coaching/plans"
 ---
+
