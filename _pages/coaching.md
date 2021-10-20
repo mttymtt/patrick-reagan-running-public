@@ -18,27 +18,34 @@ coaches:
     At the collegiate level in the NAIA, Patrick coached athletes to twelve All-American awards, including three national runner-up finishes. He also coached ten cross country conference championships teams and was named the USTFCCCA Cross Country Southeastern Coach of the Year.
   tiers:
   - name: Premium
+    is-available: true
     subtitle: Personalized Monthly Coaching
     description: Flexible, unique training plan personalized for your busy schedule
     price: "$350"
+    price-time-unit: "/mo"
     perks:
     - All of the bells & whistles of the Standard Program
     - Two monthly 45 minute calls to discuss training
     - Race schedule planning calls each season (Twice a year)
     - Daily check-ins on Coaching Platform
     - Text communication as needed
-    url: "/coaching/private"
+    url: "https://www.paypal.com/us/home"
+    spots-available:
+    is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
     description: 'The whole package: Unlimited emails, text, phone and Skype calls'
     price: "$200"
+    price-time-unit: "/mo"
     perks:
     - Daily training updated in training document
     - Monthly 30 minute call to discuss training
     - Access to core strength and weight vest strength training guides
     - Race schedule planning
     - Weekly check-ins on coaching platform
-    url: "/coaching/consultation"
+    url: "https://www.paypal.com/us/home"
+    spots-available:
+    is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
     description: Build a 12-week training plan tailored to you
@@ -47,7 +54,8 @@ coaches:
     - One Hour call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: "/coaching/plans"
+    url: "https://www.paypal.com/us/home"
+    spots-available:
+    is-available: true
 layout: coaching
 ---
-

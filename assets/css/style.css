@@ -1969,7 +1969,7 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   width: 100%;
 }
 
-.card-price span {
+.card-price > span {
   background: var(--color-accent);
   border: 2px solid var(--color-accent);
   border-radius: 100px;
@@ -1978,9 +1978,16 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   padding: 0.5em 1em;
   z-index: 1;
 
+  display: flex;
+  align-items: center;
+
   -moz-font-feature-settings: "onum" off, "ss01" off;
   -webkit-font-feature-settings: "onum" off, "ss01" off;
   font-feature-settings: "onum" off, "ss01" off;
+}
+
+.card-price span.unit {
+  font-size: var(--font-small);
 }
 
 .card-price::after {
