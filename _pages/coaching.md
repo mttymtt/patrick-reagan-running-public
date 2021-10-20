@@ -29,9 +29,8 @@ coaches:
     - Race schedule planning calls each season (Twice a year)
     - Daily check-ins on Coaching Platform
     - Text communication as needed
-    url: "https://www.paypal.com/us/home"
-    spots-available:
-    is-available: true
+    url: https://www.paypal.com/us/home
+    spots-available: 
   - name: Standard
     subtitle: Personalized Monthly Coaching
     description: 'The whole package: Unlimited emails, text, phone and Skype calls'
@@ -43,8 +42,8 @@ coaches:
     - Access to core strength and weight vest strength training guides
     - Race schedule planning
     - Weekly check-ins on coaching platform
-    url: "https://www.paypal.com/us/home"
-    spots-available:
+    url: https://www.paypal.com/us/home
+    spots-available: 
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -54,8 +53,9 @@ coaches:
     - One Hour call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: "https://www.paypal.com/us/home"
-    spots-available:
+    url: https://www.paypal.com/us/home
+    spots-available: 
     is-available: true
 layout: coaching
 ---
+
