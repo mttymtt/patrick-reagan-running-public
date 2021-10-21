@@ -27,7 +27,7 @@ layout: page
 
   <section class="cards-container coaching" style="--card-count: {% if counter > 4 %}4{% else %}{{ counter }}{% endif %}">
     {% for tier in coach.tiers %}
-      <a class="tier" href="{{ tier.url }}">
+      {% if tier.is-available == true %}<a class="tier available" href="{{ tier.url }}">{% else %}<div class="tier unavailable">{% endif %}
         <div class="card-info">
           <div class="card-title">
             <h2>{{ tier.name }}</h2>
@@ -46,14 +46,27 @@ layout: page
             {% endif %}
           </div>
           <div class="card-more">
-            <span class="more-text">Sign Up</span>
-            <span class="arrow">
-              <svg width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H20" stroke="black"/><path d="M16 1L20 5L16 9" stroke="black"/></svg>
-            </span>
-            <div class="coach">with {{ coach.name | split: ' ' | first }}</div>
+            {% if tier.is-available == true %}
+              <div>
+                <span class="more-text">Sign Up</span>
+                <span class="arrow">
+                  <svg width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H20" stroke="black"/><path d="M16 1L20 5L16 9" stroke="black"/></svg>
+                </span>
+                <div class="coach">with {{ coach.name | split: ' ' | first }}</div>
+              </div>
+              {% if tier.spots-available %}
+                <div class="spots">
+                  {{ tier.spots-available }} spot{% if tier.spots-available > 1 %}s{% endif %} available
+                </div>
+              {% endif %}
+            {% else %}
+              <div>
+                <span class="more-text">Sorry, No Availability</span>
+              </div>
+            {% endif %}
           </div>
         </div>
-      </a>
+      {% if tier.is-available == true %}</a>{% else %}</div>{% endif %}
     {% endfor %}
   </section>
 {% endfor %}

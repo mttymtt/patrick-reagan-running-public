@@ -1831,17 +1831,17 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   width: 100%;
 }
 
-.cards-container a.tier::after {
+.cards-container .tier::after {
   content: "";
   width: 100%;
 }
 
-.cards-container a.tier,
-.cards-container a.tier::after {
+.cards-container .tier,
+.cards-container .tier::after {
   width: 100%;
 }
 
-.cards-container a.tier {
+.cards-container .tier {
   background: var(--color-white);
   border-radius: var(--border-radius);
   display: flex;
@@ -1858,22 +1858,22 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   transition: all .2s ease-in-out;
 }
 
-.cards-container a.tier:hover {
+.cards-container .tier:hover {
   transform: scale(1.02);
 }
 
-.cards-container a.tier:nth-child(2) {
+.cards-container .tier:nth-child(2) {
   align-self: auto;
 }
 
 @media only screen and (min-width: 960px) {
-  .cards-container a.tier,
-  .cards-container a.tier::after {
+  .cards-container .tier,
+  .cards-container .tier::after {
     flex-grow: 1;
     width: calc((100% / 2) - var(--spacing-m));
   }
 
-  .cards-container a.tier {
+  .cards-container .tier {
     margin: var(--spacing-s);
   }
 }
@@ -1883,38 +1883,38 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
     width: calc(100vw - (var(--spacing-exterior) * 2) + (var(--spacing-s) * 2));
   }
 
-  .cards-container a.tier {
+  .cards-container .tier {
     align-self: center;
     margin: var(--spacing-xs);
   }
 
-  .cards-container a.tier,
-  .cards-container a.tier::after {
+  .cards-container .tier,
+  .cards-container .tier::after {
     width: calc((100% / var(--card-count)) - var(--spacing-m));
   }
 
-  .cards-container a.tier:first-child {
+  .cards-container .tier:first-child {
     margin-left: 0;
   }
 
-  .cards-container a.tier:last-child {
+  .cards-container .tier:last-child {
     margin-right: 0;
   }
 
-  .cards-container a.tier:nth-child(2) {
+  .cards-container .tier:nth-child(2) {
     align-self: auto;
     /* margin-top: calc(var(--spacing-s) * -1);
     margin-bottom: calc(var(--spacing-s) * -1); */
   }
 
-  .cards-container a.tier:nth-child(1) {
+  .cards-container .tier:nth-child(1) {
     margin-top: calc(var(--spacing-s) * 2);
     margin-bottom: calc(var(--spacing-s) * 2);
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .cards-container a.tier {
+  .cards-container .tier {
     align-self: center;
     margin: var(--spacing-s);
   }
@@ -1971,7 +1971,6 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 
 .card-price > span {
   background: var(--color-accent);
-  border: 2px solid var(--color-accent);
   border-radius: 100px;
   color: var(--color-white);
   font-weight: 400;
@@ -1984,6 +1983,10 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   -moz-font-feature-settings: "onum" off, "ss01" off;
   -webkit-font-feature-settings: "onum" off, "ss01" off;
   font-feature-settings: "onum" off, "ss01" off;
+}
+
+.unavailable .card-price > span {
+  background: var(--color-mid);
 }
 
 .card-price span.unit {
@@ -2016,7 +2019,7 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
     max-height: 40vh;
   }
 
-  a.tier:nth-child(2) .card-description {
+  .tier:nth-child(2) .card-description {
     max-height: none;
   }
 }
@@ -2055,9 +2058,12 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 }
 
 .card-more {
+  align-items: center;
   border-top: 1px solid var(--color-light);
   color: var(--color-base);
+  display: flex;
   font-size: 0.625em;
+  justify-content: space-between;
   padding: var(--spacing-s) var(--spacing-m);
   position: relative;
   width: 100%;
@@ -2074,6 +2080,10 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   width: 100%;
 }
 
+.card-more > div {
+  margin: 0;
+}
+
 .card-more .more-text {
   font-family: var(--font-wide);
   font-weight: 700;
@@ -2087,8 +2097,13 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   color: var(--color-dark);
 }
 
-a.tier:hover .card-more .more-text {
+.tier.available:hover .card-more .more-text {
   margin-right: 0.75em;
+}
+
+.card-more .spots {
+  color: var(--color-accent);
+  font-weight: 700;
 }
 
 .card-description p:first-child {
