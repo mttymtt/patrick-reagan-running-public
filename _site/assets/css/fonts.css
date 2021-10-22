@@ -179,6 +179,14 @@
 
 @font-face {
   font-family: 'Really Sans';
+  src: url('../fonts/ReallySansSmallTrial-Semibold.woff2') format('woff2');
+  font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Really Sans';
   src: url('../fonts/ReallySansSmallTrial-Bold.woff2') format('woff2');
   font-weight: 700;
 	font-style: normal;
