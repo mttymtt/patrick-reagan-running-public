@@ -1145,6 +1145,12 @@ section {
   margin-top: 0;
 }
 
+@media only screen and (min-width: 960px) {
+  section.col {
+    margin-top: 0;
+  }
+}
+
 /*
 ========================================
 ========================================
@@ -2193,7 +2199,6 @@ a.tier:hover .tier-more {
 }
 
 .podcast-container .podcast-title h2 {
-  font-size: 3em;
   margin: 0;
 }
 
@@ -2212,6 +2217,16 @@ a.tier:hover .tier-more {
   .podcast-container .podcast-image,
   .podcast-container .podcast-info {
     width: 50%;
+  }
+
+  .podcast-container .podcast-title h2 {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .podcast-container .podcast-title h2 {
+    font-size: 3em;
   }
 }
 

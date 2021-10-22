@@ -14,7 +14,7 @@ layout: page
   <div class="podcast-info">
     <div class="podcast-details">
       <div class="podcast-title">
-        <h2>Tortoise & The Hare</h2>
+        <h2>Tortoise & The&nbsp;Hare</h2>
       </div>
       <div class="podcast-description">
         <p>Patrick teams up weekly with fellow Savannah, GA ultrarunner Mike Nadeau, to talk all things running on the Tortoise & The Hare Podcast.</p>
@@ -30,7 +30,7 @@ layout: page
 {% assign features = features[0].features | sort: 'date' | reverse %}
 
 <div class="width-l row space gutter-l">
-  <div class="col col-1of2 sticky">
+  <section class="col col-1of2 sticky">
     <h3>Recent Episodes</h3>
     <ul class="TH-episodes">
       Loading Podcasts…
@@ -38,9 +38,9 @@ layout: page
     <div class="button">
       <a href="https://tortoiseandtheharepodcast.libsyn.com">View All Episodes</a>
     </div>
-  </div>
+  </section>
 
-  <div class="col col-1of2 sticky">
+  <section class="col col-1of2 sticky">
     <h3>Featured On</h3>
     <div class="list features">
       {% for feature in features limit:5 %}
@@ -70,5 +70,5 @@ layout: page
     <div class="button">
       <a href="/features">View More</a>
     </div>
-  </div>
+  </section>
 </div>
