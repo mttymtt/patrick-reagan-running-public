@@ -1867,6 +1867,12 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 }
 
 @media only screen and (min-width: 960px) {
+  .cards-container {
+    margin-left: calc(var(--spacing-s) * -1);
+    margin-right: calc(var(--spacing-s) * -1);
+    width: calc(100% + var(--spacing-s) + var(--spacing-s));
+  }
+
   .cards-container .tier,
   .cards-container .tier::after {
     flex-grow: 1;
@@ -1880,6 +1886,9 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 
 @media only screen and (min-width: 1280px) {
   .cards-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--width-l);
     width: calc(100vw - (var(--spacing-exterior) * 2) + (var(--spacing-s) * 2));
   }
 
@@ -1903,8 +1912,6 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 
   .cards-container .tier:nth-child(2) {
     align-self: auto;
-    /* margin-top: calc(var(--spacing-s) * -1);
-    margin-bottom: calc(var(--spacing-s) * -1); */
   }
 
   .cards-container .tier:nth-child(1) {

@@ -43,7 +43,7 @@ coaches:
     - Race schedule planning
     - Weekly check-ins on coaching platform
     url: https://www.paypal.com/us/home
-    spots-available: 
+    spots-available:
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -54,17 +54,17 @@ coaches:
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
     url: https://www.paypal.com/us/home
-    spots-available: 
+    spots-available:
     is-available: true
 - name: Nicole Monette
   headshot:
     image: "/uploads/Nicole-Monette_Portrait.jpg"
-    credit: 
-    credit-url: 
+    credit:
+    credit-url:
   bio-text: |-
     Nicole is a native of Southeastern Michigan and currently resides in Brandon, Michigan with her husband, Patrick, and their three children: Peter, Jacob, and Madelyn. She attended Indiana University of Pennsylvania, earning a B.S. in exercise science, while also competing in cross country and track and field. She then went on to Slippery Rock University, earning a Doctorate of Physical Therapy. She currently runs ultramarathons for Hoka One One.
 
-    In 2009, Nicole placed 4th at the US Marathon Championships, running 2:35:09, qualifying for the Olympic track and field trials. In 2017 she started competing in both trail and road ultramarathon distances, with notable performances including 3rd at the 2017 Ice Age 50k, 1st place at the 2018 Tunnel Hill 50 mile, and 1st place with a course record at the 2020 Yeti 100 mile. In 2021 Nicole placed second at the Hoka One One Carbon X 100k event, running 7:43:09 and becoming the 9th fastest US women of all-time in that event.</p>
+    In 2009, Nicole placed 4th at the US Marathon Championships, running 2:35:09, qualifying for the Olympic track and field trials. In 2017 she started competing in both trail and road ultramarathon distances, with notable performances including 3rd at the 2017 Ice Age 50k, 1st place at the 2018 Tunnel Hill 50 mile, and 1st place with a course record at the 2020 Yeti 100 mile. In 2021 Nicole placed second at the Hoka One One Carbon X 100k event, running 7:43:09 and becoming the 9th fastest US women of all-time in that event.
 
     Nicole has worked as an outpatient physical therapist in sports medicine and orthopedics for over ten years, and when not running, working, or coaching enjoys spending time with her young family exploring the outdoors.
   tiers:
@@ -80,7 +80,7 @@ coaches:
     - Daily check-ins on Coaching Platform
     - Text communication as needed
     url: https://www.paypal.com/us/home
-    spots-available: 
+    spots-available:
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -94,7 +94,7 @@ coaches:
     - Race schedule planning
     - Weekly check-ins on coaching platform
     url: https://www.paypal.com/us/home
-    spots-available: 
+    spots-available:
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -105,8 +105,7 @@ coaches:
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
     url: https://www.paypal.com/us/home
-    spots-available: 
+    spots-available:
     is-available: true
 layout: coaching
 ---
-
