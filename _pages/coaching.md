@@ -30,7 +30,7 @@ coaches:
     - Text communication as needed
     url: https://www.paypal.com/us/home
     spots-available: 1
-    is-available: true
+    is-available: false
   - name: Standard
     subtitle: Personalized Monthly Coaching
     description: 'The whole package: Unlimited emails, text, phone and Skype calls'
@@ -44,7 +44,7 @@ coaches:
     - Weekly check-ins on coaching platform
     url: https://www.paypal.com/us/home
     spots-available: 
-    is-available: false
+    is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
     description: Build a 12-week training plan tailored to you
