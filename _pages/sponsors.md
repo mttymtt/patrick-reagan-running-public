@@ -1,11 +1,10 @@
 ---
 title: Sponsors
-layout: sponsors
 cover:
   image: "/uploads/e69668fe-708c-4ff9-987b-f2640347e064.JPG"
   credit: Foon Fu
   credit-link: http://www.foonfu.com
-has-visible-descriptions: true
+has-visible-descriptions: false
 sponsors:
 - name: HOKA ONE ONE
   description: |-
@@ -63,5 +62,6 @@ sponsors:
   description: 
   image: "/uploads/UTWT_light_positif.png"
   url: https://www.ultratrail-worldtour.com/
+layout: sponsors
 ---
 
