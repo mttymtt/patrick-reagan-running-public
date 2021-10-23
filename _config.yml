@@ -37,13 +37,13 @@ email: patrickreaganrunning@gmail.com
 social:
 - platform-name: Instagram
   username: patrickreaganrunning
-  url: "https://www.instagram.com/patrickreaganrunning/"
+  url: https://www.instagram.com/patrickreaganrunning/
 - platform-name: Strava
   username: Patrick Reagan
-  url: "https://www.strava.com/pros/10014836"
+  url: https://www.strava.com/pros/10014836
 - platform-name: Twitter
   username: preaganrunning
-  url: "https://www.twitter.com/preaganrunning/"
+  url: https://www.twitter.com/preaganrunning/
 - platform-name: Facebook
   username: patrickreaganrunning
-  url: "https://www.facebook.com/patrickreaganrunning/"
+  url: https://www.facebook.com/patrickreaganrunning/
