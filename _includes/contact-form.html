@@ -10,30 +10,30 @@
         <input type="email" name="_replyto" id="email-address" placeholder="speedy3000@hotwheels.com" required="true">
       </div>
     </fieldset>
-    <fieldset id="fs-frm-selects">
-      <div class="form-item">
-        <label for="service">What are you interested in?</label>
-        <select name="service" id="service" required="true">
-          <option value="Choose" selected="" disabled="">Choose a Service</option>
-          <option value="Monthly Coaching">Monthly Coaching</option>
-          <option value="Consultation Call">Consultation Call</option>
-          <option value="Other">Other</option>
-        </select>
-      </div>
 
+    {% for block in page.contact-form %}
       <div class="form-item">
-        <label for="coach">Who would you like to connect with?</label>
-        <select name="coach" id="coach" required="">
-          <option value="Choose" selected="" disabled="">Patrick or Nicole?</option>
-          <option value="Patrick">Patrick</option>
-          <option value="Nicole">Nicole</option>
-        </select>
+        <label for="{{ block.unique-block-code }}">{{ block.label }}</label>
+        {% if block.type == "short-text" %}
+          <input type="text" name="{{ block.unique-block-code }}" id="{{ block.unique-block-code }}" {% if block.placeholder-text %}placeholder="{{ block.placeholder-text }}"{% endif %} {% if block.is-required %}required="true"{% endif %}>
+        {% endif %}
+
+        {% if block.type == "long-text" %}
+          <textarea rows="3" name="{{ block.unique-block-code }}" id="{{ block.unique-block-code }}" {% if block.placeholder-text %}placeholder="{{ block.placeholder-text }}"{% endif %} {% if block.is-required %}required="true"{% endif %}></textarea>
+        {% endif %}
+
+        {% if block.type == "dropdown" %}
+          <select name="{{ block.unique-block-code }}" id="{{ block.unique-block-code }}" {% if block.is-required %}required="true"{% endif %}>
+            {% if block.placeholder-text %}
+              <option value="Choose" selected="" disabled="">{{ block.placeholder-text }}</option>
+            {% endif %}
+            {% for option in block.options %}
+              <option value="{{ option.option }}">{{ option.option }}</option>
+            {% endfor %}
+          </select>
+        {% endif %}
       </div>
-    </fieldset>
-    <div class="form-item">
-      <label for="message">Your Message</label>
-      <textarea rows="3" name="message" id="message" placeholder="Tell us a bit about yourself. When would you like to chat or when would you like to start the coaching program? Do you have a race in mind? What are some of your goals?" required=""></textarea>
-    </div>
+    {% endfor %}
 
     <input type="hidden" name="_subject" id="email-subject" value="Coaching Inquiry">
   </fieldset>

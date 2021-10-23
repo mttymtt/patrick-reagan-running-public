@@ -1,10 +1,5 @@
 ---
-title: Contact
 layout: page
-cover:
-  image: "/uploads/Andy-Cochrane_A36A0464.jpg"
-  credit: Andy Cochrane
-  credit-link: https://www.andrewfitts.com
 ---
 
 <section>
@@ -13,25 +8,22 @@ cover:
       {% include contact-form.html %}
     </div>
 
-    <div class="col mb-l col-1of3">
-      <div class="image">
-        <img src="/uploads/Oy.jpg">
+    <div class="col col-1of3">
+      <div class="image mb-m">
+        <img src="{{ page.headshot.image }}">
+        {% if page.headshot.credit %}
+          <div class="photo-credit">
+            Photo: {% if page.headshot.credit-url %}<a href="{{ page.headshot.credit-url }}" target="_blank">{% endif %}{{ page.headshot.credit }}{% if page.headshot.credit-url %}</a>{% endif %}
+          </div>
+        {% endif %}
       </div>
-    </div>
-  </div>
-</section>
 
-<section>
-  <div class="inner row gutter-xl width-l space">
-    <div class="col mb-l col-1of2">
-      <div>
+      <div class="mb-m">
         <h3>Email</h3>
-        <p><a href="mailto:patrickreaganrunning@gmail.com">patrickreaganrunning@gmail.com</a></p>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
-    </div>
 
-    <div class="col mb-l col-1of2">
-      <div>
+      <div class="mb-m">
         <h3>Social Media</h3>
         <ul class="plain">
           <li><a href="{{ site.strava_URL }}">Strava</a></li>
