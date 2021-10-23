@@ -13,7 +13,7 @@ layout: page
     {% else %}
     <div class="spons {% if sponsor.size == "large" %}large{% else %}small{% endif %}">
     {% endif %}
-      {% if sponsor.logo %}
+      {% if sponsor.image %}
         <div class="spons-logo">
           <div>
             <img alt="{{ sponsor.name }}" src="{{ sponsor.image }}">
@@ -23,13 +23,13 @@ layout: page
         <h2 class="sponsor-name">{{ sponsor.name }}</h2>
       {% endif %}
 
-      {% comment %}
-      <p class="spons-description">
+      {% if page.has-visible-descriptions %}
         {% if sponsor.description %}
-          {{ sponsor.description }}
+          <div class="spons-description">
+            {{ sponsor.description | markdownify }}
+          </div>
         {% endif %}
-      </p>
-      {% endcomment %}
+      {% endif %}
 
     {% if sponsor.url %}
     </a>

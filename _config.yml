@@ -15,10 +15,6 @@ collections:
   dataRacing:
     title: Racing Data
     output: false
-  shop:
-    title: Shop
-    output: true
-    permalink: "/:name"
   uploads:
     title: Uploads
     output: true

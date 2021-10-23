@@ -1234,16 +1234,17 @@ Cover Image
   margin: 0;
   max-width: var(--width-l);
   position: absolute;
-  width: 100%;
+  width: calc(100% - (var(--spacing-exterior) * 2));
   z-index: 1;
 }
 
 .cover-content-container .cover-title {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 .cover-content-container .cover-title h1 {
   font-weight: 900;
+  line-height: 0.8;
   margin-bottom: 0;
 }
 
@@ -1273,9 +1274,8 @@ Cover Image
 
 /* ---------- HOME ---------- */
 
-#home .primary-feature .feature-title {
-  border-bottom: 0px;
-  text-align: center;
+#home .cover-title {
+  max-width: var(--width-m);
 }
 
 #home section h2 {
@@ -1759,10 +1759,6 @@ a.spons:hover::before {
   margin-top: 0;
 }
 
-.spons h2.spons-description {
-  margin-top: var(--spacing-m);
-}
-
 .spons .spons-logo div {
   display: flex;
   height: 100%;
@@ -1815,6 +1811,10 @@ a.spons:hover {
     flex-basis: 0;
   }
 }
+
+/* .spons-container .spons-description {
+  font-size: var(--font-small);
+} */
 
 /* Toggle descriptions */
 
