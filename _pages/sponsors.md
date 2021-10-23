@@ -39,8 +39,7 @@ sponsors:
   image: "/uploads/compressport-vector-logo.svg"
   url: http://www.compressport.com/
 - name: UltrAspire
-  description: |-
-    UltrAspire has become my go to for hydration needs.
+  description: UltrAspire has become my go to for hydration needs.
   image: "/uploads/Ultraspire-Logo.png"
   url: https://ultraspire.com/
 - name: Squirrel’s Nut Butter
@@ -50,7 +49,7 @@ sponsors:
   image: "/uploads/snblogo.png"
   url: http://www.squirrelsnutbutter.com/
 - name: Inside Tracker
-  description:
+  description: 
   image: "/uploads/inside-tracker-logo.jpg"
   url: https://www.insidetracker.com
 - name: Perc Coffee Roasters
@@ -61,7 +60,8 @@ sponsors:
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
 - name: Ultra Trail World Tour
-  description:
+  description: 
   image: "/uploads/UTWT_light_positif.png"
   url: https://www.ultratrail-worldtour.com/
 ---
+
