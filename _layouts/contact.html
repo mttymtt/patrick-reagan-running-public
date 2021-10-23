@@ -18,20 +18,23 @@ layout: page
         {% endif %}
       </div>
 
-      <div class="mb-m">
-        <h3>Email</h3>
-        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-      </div>
+      {% if site.email %}
+        <div class="mb-m">
+          <h3>Email</h3>
+          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+      {% endif %}
 
-      <div class="mb-m">
-        <h3>Social Media</h3>
-        <ul class="plain">
-          <li><a href="{{ site.strava_URL }}">Strava</a></li>
-          <li><a href="{{ site.instagram_URL }}">Instagram</a></li>
-          <li><a href="{{ site.twitter_URL }}">Twitter</a></li>
-          <li><a href="{{ site.facebook_URL }}">Facebook</a></li>
-        </ul>
-      </div>
+      {% if site.social %}
+        <div class="mb-m">
+          <h3>Social Media</h3>
+          <ul class="plain">
+            {% for social in site.social %}
+              <li><a href="{{ social.url }}">{{ social.platform-name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>

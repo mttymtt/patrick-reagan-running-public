@@ -14,12 +14,14 @@
           <a class="{{ item.name | slugify }} {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
       {% endfor %}
     </div>
-    <div class="footer-section">
-      <h3>Social Media</h3>
-      <a href="{{ site.strava_URL }}">Strava</a>
-      <a href="https://www.instagram.com/{{ site.instagram_username }}">Instagram</a>
-      <a href="https://www.twitter.com/{{ site.twitter_username }}">Twitter</a>
-      <a href="https://www.facebook.com/{{ site.facebook_username }}">Facebook</a>
-    </div>
+
+    {% if site.social %}
+      <div class="footer-section">
+        <h3>Social Media</h3>
+        {% for social in site.social %}
+          <a href="{{ social.url }}">{{ social.platform-name }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </footer>
