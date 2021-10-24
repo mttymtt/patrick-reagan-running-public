@@ -301,9 +301,9 @@ fieldset + .button {
   border: 2px solid var(--color-accent);
   border-radius: 100px;
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 0.55em 1em 0.5em 1em;
 
   -moz-font-feature-settings: "onum" off, "ss01" off;
   -webkit-font-feature-settings: "onum" off, "ss01" off;

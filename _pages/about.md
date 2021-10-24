@@ -38,9 +38,9 @@ In 2016, Reagan had a fantastic rookie year of ultrarunning. He finished his yea
 
   <div class="col col-1of2">
     <div class="image">
-      <img src="uploads/Howie-Stern_04.jpg">
+      <img src="uploads/Scott-Owenby_F0A7486_web.jpg">
       <div class="photo-credit">
-        Photo: <a href="http://www.howiestern.com">Howie Stern</a>
+        Photo: Scott Owenby
       </div>
     </div>
   </div>

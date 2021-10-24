@@ -16,15 +16,23 @@
 
   <div class="info">
     <div class="text">
-      <div class="highlight">
-        {{ testimonial.highlight }}
-      </div>
-      <div class="description">
-        {{ testimonial.description | markdownify }}
-      </div>
+      {% if testimonial.highlight %}
+        <div class="highlight">
+          {{ testimonial.highlight }}
+        </div>
+      {% endif %}
+
+      {% if testimonial.description %}
+        <div class="description">
+          {{ testimonial.description | markdownify }}
+        </div>
+      {% endif %}
     </div>
-    <div class="name">
-      {{ testimonial.name }}
-    </div>
+
+    {% if testimonial.name %}
+      <div class="name">
+        {{ testimonial.name }}
+      </div>
+    {% endif %}
   </div>
 </div>

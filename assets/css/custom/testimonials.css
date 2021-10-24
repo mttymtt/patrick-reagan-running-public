@@ -104,7 +104,7 @@
   }
 
   .testimonial .description {
-    font-size: var(--font-small);
+    font-size: 18px;
   }
 
   .testimonial:nth-child(even) {

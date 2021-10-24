@@ -7,6 +7,7 @@ cover:
   image: "/uploads/Andy-Cochrane_A36A0401.jpg"
   credit: Andy Cochrane
   credit-link: https://www.instagram.com/andrewfitts/
+  headline: The Proof is in the Pudding
 testimonials:
 - name: Jake Jackson
   image: "/uploads/Jake-Jackson_01.jpg"
@@ -53,6 +54,7 @@ testimonials:
     running.
 - name: Whitney Richman
   image: "/uploads/Whitney-Richman_03.jpg"
+<<<<<<< Updated upstream
   credit: 
   credit-link: 
   highlight: Patrick listens to my needs and creates the flexibility I need with having
@@ -64,5 +66,12 @@ testimonials:
     a partnership, where he constantly asks for my input and we are in each other's
     corners. I am more confident and mentally strong thanks to his continued support
     and confidence in me.
+=======
+  credit:
+  credit-link:
+  highlight: "Patrick listens to my needs and creates the flexibility I need with having two young children."
+  description: |-
+    I've really enjoyed working with Patrick for the last 1 ½ years. I was hesitant about working with a coach because I was afraid of a strict training schedule, but Patrick listens to my needs and creates the flexibility I need with having two young children. I like that our coach-athlete relationship feels like a partnership, where he constantly asks for my input and we are in each other's corners. I am more confident and mentally strong thanks to his continued support and confidence in me.
+>>>>>>> Stashed changes
 ---
 
