@@ -1,48 +1,49 @@
 ---
-layout: base
+layout: page
 ---
 
-{% include header.html %}
-
-{% include cover-image.html %}
-
-<section class="row width-m space reverse">
-  <div class="image col col-1of2">
-    <div class="crop crop-4x5">
-      <div>
-        <img src="/uploads/Howie-Stern_06.jpg">
-      </div>
-    </div>
-    <div class="photo-credit">
-      Photo: <a href="https://www.howiestern.com" target="_blank">Howie Stern</a>
-    </div>
-  </div>
-
-  <div class="info col col-1of2">
-    <h2>Ultrarunning tests the limits of a runner’s character, perseverance, and grit to the max, but the finish line is always worth it.</h2>
-    <p>Covering vast distances on foot is a challenging and rewarding endeavor. Engaging with the running community along the way makes the challenge worth the struggle.</p>
-  </div>
-</section>
-
-<section class="id">
-  <div class="inner">
-    <div class="image">
+<section>
+  <div class="row width-m space a-center gutter-l reverse">
+    <div class="image col col-1of2">
       <div class="crop crop-4x5">
         <div>
-          <!-- <img src="/uploads/100082093_1442997372555062_4099622687205228544_o.jpg"> -->
+          <img src="/uploads/Howie-Stern_06.jpg">
         </div>
       </div>
+      <div class="photo-credit">
+        Photo: <a href="https://www.howiestern.com" target="_blank">Howie Stern</a>
+      </div>
     </div>
-    <div class="info">
+
+    <div class="info col col-1of2">
       <h2>Training plans built specifically for you.</h2>
       <p>Over the years, I’ve been working with a wide variety of athletes to help them accomplish their goals. We are all different, and so we all deserve more than vague training philosophies. We deserve individual attention.</p>
-      <div class="button">
-        <a href="">Let’s talk training</a>
+      <div class="button left">
+        <a href="/coaching">Let’s talk training</a>
       </div>
     </div>
   </div>
 </section>
 
-{{ content }}
+<section id="testimonials-container" class="testimonials-container width-m">
 
-{% include footer.html %}
+</section>
+
+{% assign testimonials = site.pages | where: 'title', 'Testimonials' %}
+{% assign testimonials = testimonials[0].testimonials %}
+
+<script>
+  var testimonialContainer = document.getElementById("testimonials-container");
+
+  const allTestimonials =
+    [{% for testimonial in testimonials %}{% capture testimonials_stripped %}{% include testimonial.html %}{% endcapture %}'{{ testimonials_stripped | strip_newlines }}'{% unless forloop.last %},{% endunless %}{% endfor %}];
+
+  function randomTestimonial() {
+    const randomTestimonial = allTestimonials[Math.floor(Math.random() * allTestimonials.length)];
+    return randomTestimonial;
+  }
+
+  console.log(allTestimonials);
+
+  testimonialContainer.innerHTML = randomTestimonial() + '<div class="button"><a href="/testimonials">See what others have to say</a></div>';
+</script>

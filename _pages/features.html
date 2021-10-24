@@ -11,5 +11,48 @@ cover:
 {% assign features = features[0].features | sort: 'date' | reverse %}
 
 <div class="width-s">
+  {% assign i = -1 %}
+  {% for feature in features %}
+    {% assign i = i | plus:1 %}
+    {% assign next_i = i | plus:1 %}
 
+    {% capture this_year %}{{ features[i].date | date: "%Y" }}{% endcapture %}
+    {% capture prev_year %}{{ features[next_i].date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+      <h3>{{ this_year}}</h3>
+      <div class="list race-table">
+    {% endif %}
+
+      {% if feature.url %}
+        <a class="item" href="{{ feature.url }}">
+      {% else %}
+        <div class="item">
+      {% endif %}
+          <div class="details">
+            <div class="name">{{ feature.name }}</div>
+            <time>
+              {% assign d = feature.date | date: "%-d" %}
+              {{ feature.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ feature.date | date: "%Y" }}
+            </time>
+          </div>
+          <div class="meta">
+            <div class="type">{{ feature.type }}</div>
+          </div>
+      {% if feature.url %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+
+    {% if forloop.last %}
+      {% else %}
+      {% unless this_year == prev_year %}
+        </div>
+        <h3>{{ prev_year}}</h3>
+        <div class="list race-table">
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</div>
 </div>

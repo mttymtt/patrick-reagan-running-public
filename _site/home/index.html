@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="/assets/css/fonts.css">
 
     
+      
+        <link rel="stylesheet" href="/assets/css/custom/testimonials.css">
+      
+    
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
@@ -137,7 +141,7 @@
     <div class="image col col-1of2">
       <div class="crop crop-4x5">
         <div>
-          <img src="/uploads/Howie-Stern_06.jpg" />
+          <img src="/uploads/Howie-Stern_06.jpg">
         </div>
       </div>
       <div class="photo-credit">
@@ -146,31 +150,37 @@
     </div>
 
     <div class="info col col-1of2">
-      <h2>Ultrarunning tests the limits of a runner’s character, perseverance, and grit to the max, but the finish line is always worth it.</h2>
-      <p>Covering vast distances on foot is a challenging and rewarding endeavor. Engaging with the running community along the way makes the challenge worth the struggle.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="row width-m space a-center gutter-l">
-    <div class="image col col-1of2">
-      <div class="crop crop-4x5">
-        <div>
-          <!-- <img src="/uploads/100082093_1442997372555062_4099622687205228544_o.jpg"> -->
-        </div>
-      </div>
-    </div>
-
-    <div class="info col col-1of2">
       <h2>Training plans built specifically for you.</h2>
       <p>Over the years, I’ve been working with a wide variety of athletes to help them accomplish their goals. We are all different, and so we all deserve more than vague training philosophies. We deserve individual attention.</p>
       <div class="button left">
-        <a href="">Let’s talk training</a>
+        <a href="/coaching">Let’s talk training</a>
       </div>
     </div>
   </div>
 </section>
+
+<section id="testimonials-container" class="testimonials-container width-m">
+
+</section>
+
+
+
+
+<script>
+  var testimonialContainer = document.getElementById("testimonials-container");
+
+  const allTestimonials =
+    ['<div class="testimonial">      <div class="image">      <div class="crop crop-1x1">        <div>          <img src="/uploads/Jake-Jackson_01.jpg">        </div>      </div>              <div class="photo-credit">          Photo: <a href="https://www.instagram.com/derricklytle/" target="_blank">Derrick Lytle</a>        </div>          </div>    <div class="info">    <div class="text">      <div class="highlight">        One of the most rewarding as well as supportive partnerships I’ve experienced.      </div>      <div class="description">        <p>I’ve been working with Patrick since the beginning of 2020 and it’s been one of the most rewarding as well as supportive partnerships I’ve experienced. Through his coaching and mentoring I’ve had many breakthroughs with my running and racing career that have given me confidence in all aspects of life. Being someone who works a full time job and has a big family we’ve been able to structure a training plan that helps keep life relatively balanced while also allowing me to chase big goals. Couldn’t ask for a better coach/ athlete relationship and I look forward to whatever the future brings us.</p>      </div>    </div>    <div class="name">      Jake Jackson    </div>  </div></div>','<div class="testimonial">      <div class="image">      <div class="crop crop-1x1">        <div>          <img src="/uploads/Nicole-Monette_Trail.jpg">        </div>      </div>              <div class="photo-credit">          Photo: <a href="https://www.instagram.com/scottrokisphoto/" target="_blank">Scott Rokis</a>        </div>          </div>    <div class="info">    <div class="text">      <div class="highlight">        I have never felt stronger running races over 50 miles than I have over the past year of training with Patrick.      </div>      <div class="description">        <p>I started working with Patrick about one year ago and can honestly say that the experience has reinvigorated my running and has made me more excited than ever to pursue big goals in the sport of ultrarunning. His knowledge of both the history and the physiological demands of the sport allow him to develop training plans that are extremely specific to the event that I’m training for and I always feel confident that I am prepared and ready to go on race day. I have never felt stronger running races over 50 miles than I have over the past year of training with Patrick, and the results speak for themselves. He believes in his athletes and is always an encouraging voice when the inevitable doubts creep in.</p>      </div>    </div>    <div class="name">      Nicole Monette    </div>  </div></div>','<div class="testimonial">      <div class="image">      <div class="crop crop-1x1">        <div>          <img src="/uploads/Nicholas-Mamrak_01.jpg">        </div>      </div>          </div>    <div class="info">    <div class="text">      <div class="highlight">        The attention to detail given to each athlete is what sets Pat apart.      </div>      <div class="description">        <p>Since beginning to work with Pat a little over a year ago I have seen huge improvements in my running. Across the full spectrum of paces and distances, Pat has been able to apply his technical expertise and coaching experience to simultaneously increase my leg speed, endurance, and durability - all critical assets for any ultra runner. More importantly than just help me get faster, Pat has been able to work with me on an individual level developing a unique training program and strength regime to specifically cater to my needs as an athlete and fit my rigid schedule. The attention to detail given to each athlete is what sets Pat apart. I highly recommend his services to anyone looking to level up their running.</p>      </div>    </div>    <div class="name">      Nicholas Mamrak    </div>  </div></div>','<div class="testimonial">      <div class="image">      <div class="crop crop-1x1">        <div>          <img src="/uploads/Whitney-Richman_03.jpg">        </div>      </div>          </div>    <div class="info">    <div class="text">      <div class="highlight">        Patrick listens to my needs and creates the flexibility I need with having two young children.      </div>      <div class="description">        <p>I’ve really enjoyed working with Patrick for the last 1 ½ years. I was hesitant about working with a coach because I was afraid of a strict training schedule, but Patrick listens to my needs and creates the flexibility I need with having two young children. I like that our coach-athlete relationship feels like a partnership, where he constantly asks for my input and we are in each other’s corners. I am more confident and mentally strong thanks to his continued support and confidence in me.</p>      </div>    </div>    <div class="name">      Whitney Richman    </div>  </div></div>'];
+
+  function randomTestimonial() {
+    const randomTestimonial = allTestimonials[Math.floor(Math.random() * allTestimonials.length)];
+    return randomTestimonial;
+  }
+
+  console.log(allTestimonials);
+
+  testimonialContainer.innerHTML = randomTestimonial() + '<div class="button"><a href="/testimonials">See what others have to say</a></div>';
+</script>
 
   </div>
 </div>

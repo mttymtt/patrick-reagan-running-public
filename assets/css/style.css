@@ -192,7 +192,7 @@ h1:first-child {
 
 h2 {
   font-size: 2em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   margin-bottom: var(--spacing-s);
   text-align: center;
 }

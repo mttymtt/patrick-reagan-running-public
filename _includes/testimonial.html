@@ -1,0 +1,30 @@
+<div class="testimonial">
+  {% if testimonial.image %}
+    <div class="image">
+      <div class="crop crop-1x1">
+        <div>
+          <img src="{{ testimonial.image }}">
+        </div>
+      </div>
+      {% if testimonial.credit %}
+        <div class="photo-credit">
+          Photo: {% if testimonial.credit-link %}<a href="{{ testimonial.credit-link }}" target="_blank">{% endif %}{{ testimonial.credit }}{% if testimonial.credit-link %}</a>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="info">
+    <div class="text">
+      <div class="highlight">
+        {{ testimonial.highlight }}
+      </div>
+      <div class="description">
+        {{ testimonial.description | markdownify }}
+      </div>
+    </div>
+    <div class="name">
+      {{ testimonial.name }}
+    </div>
+  </div>
+</div>
