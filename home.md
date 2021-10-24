@@ -8,8 +8,9 @@ cover:
   credit: Andy Cochrane
   credit-link: https://www.instagram.com/andrewfitts/
   headline: Ultras Aren’t Run&nbsp;Alone
-  description:
+  description: 
   cta:
     copy: Coaching Services
     link: "/coaching"
 ---
+
