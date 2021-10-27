@@ -203,39 +203,13 @@
 
 
 
-@font-face {
-	font-family: 'Lyyra';
-	src: url('../fonts/lyyra.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-}
-
-@font-face {
-	font-family: 'Lyyra';
-	src: url('../fonts/lyyra-extended-bold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-	font-stretch: normal;
-}
-
-@font-face {
-	font-family: 'Pitch';
-	src: url('../fonts/PitchTest-Medium.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
-	font-stretch: normal;
-}
-
-
-
 
 
 
 
 @font-face {
-	font-family: 'Fade';
-	src: url('../fonts/Fade0.007-Regular.woff2') format('woff2');
+	font-family: 'Styrene';
+	src: url('../fonts/StyreneA-Medium.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;
