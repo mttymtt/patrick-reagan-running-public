@@ -96,12 +96,16 @@ button {
   width: 100%;
 }
 
-.a-center {
+.v-align--center {
   align-items: center;
 }
 
-.space {
+.h-align--space-between {
   justify-content: space-between;
+}
+
+.h-align--center {
+  justify-content: center;
 }
 
 .reverse {
@@ -138,13 +142,33 @@ button {
   width: 100%;
 }
 
-.a-center .col {
+.v-align--center .col {
   align-self: center;
 }
 
 .content .col {
   margin-left: 0;
   margin-right: 0;
+}
+
+.gallery {
+  --gutter-var: 0em;
+}
+
+.width-f .gallery {
+  margin: 0 var(--spacing-s);
+  width: calc(100% - (var(--spacing-s) * 2));
+}
+
+.width-l .gallery,
+.width-m .gallery,
+.width-s .gallery {
+  margin-left: calc((var(--spacing-s) * -1));
+  width: calc(100% + (var(--spacing-s) * 2));
+}
+
+.gallery .col {
+  padding: var(--spacing-s);
 }
 
 @media only screen and (min-width: 960px) {

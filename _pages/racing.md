@@ -16,7 +16,7 @@ cover:
 {% assign career-highlights = site.dataRacing | where: 'title', 'Career Highlights' %}
 {% assign career-highlights = career-highlights[0].highlights %}
 
-<div class="row gutter-l width-l space">
+<div class="row gutter-l width-l h-align--space-between">
   <div class="col col-1of2 sticky">
     <h3>Upcoming Races</h3>
     <div class="list race-table">

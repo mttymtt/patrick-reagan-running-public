@@ -461,6 +461,10 @@ p.full img {
   position: relative;
 }
 
+.width-f > .image {
+  border-radius: 0;
+}
+
 .photo-credit {
   background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
   border-bottom-left-radius: var(--border-radius);
@@ -735,6 +739,10 @@ header .site-title {
   margin-top: -0.2em;
   text-align: center;
   text-transform: none;
+}
+
+header .site-title a:hover {
+  color: var(--color-accent);
 }
 
 header .site-title h1 {
@@ -1304,9 +1312,9 @@ Cover Image
 .page-info .post-category {
   display: inline-block;
   font-family: var(--font-wide);
-font-weight: 700;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: var(--spacing-m);
   text-align: center;
@@ -1461,7 +1469,7 @@ h1.section-title {
 .blog-index a.blog-post h2.post-title {
   font-family: var(--font-headings);
   font-size: 1.75em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   margin: 0;
   padding-bottom: var(--spacing-s);
   text-align: left;
@@ -1504,9 +1512,9 @@ h1.section-title {
   color: var(--color-base);
   display: flex;
   font-family: var(--font-wide);
-font-weight: 700;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 .blog-index a.blog-post .post-category {
@@ -2370,9 +2378,9 @@ a.tier:hover .tier-more {
 
 .TH-episodes .episode-meta .number {
   font-family: var(--font-wide);
-font-weight: 700;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   font-size: 0.625em;
 
   font-variant-numeric: proportional-nums;
@@ -2443,6 +2451,7 @@ text-transform: uppercase;
   font-family: var(--font-headings);
   font-weight: 500;
   font-size: 1.25rem;
+  letter-spacing: 0.02em;
   transition: all .1s ease-in-out;
 }
 

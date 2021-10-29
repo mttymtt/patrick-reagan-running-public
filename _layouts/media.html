@@ -31,7 +31,7 @@ layout: page
 {% assign features = site.dataMedia | where: 'title', 'Featured On' %}
 {% assign features = features[0].features | sort: 'date' | reverse %}
 
-<div class="width-l row space gutter-l">
+<div class="width-l row h-align--space-between gutter-l">
   <section class="col col-1of2 sticky">
     <h3>Recent Episodes</h3>
     <ul class="TH-episodes">

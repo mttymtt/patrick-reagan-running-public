@@ -19,5 +19,6 @@ highlights:
   place: 33rd
   year: '2016'
 - name: 2x NCAA Division II Cross Country All-American
+- name: Slippery Rock Hall of Fame
+  year: '2021'
 ---
-
