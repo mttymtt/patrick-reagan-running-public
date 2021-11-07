@@ -3,6 +3,20 @@
       <div class="image">
         <div class="crop">
           <div>
+            {% if page.cover.desktop-position or page.cover.mobile-position %}
+              <style type="text/css">
+                :root {
+                  --h-position: {% if page.cover.mobile-position.horizontal %}{{ page.cover.mobile-position.horizontal }}{% else %}center{% endif %};
+                  --v-position: {% if page.cover.mobile-position.vertical %}{{ page.cover.mobile-position.vertical }}{% else %}center{% endif %};
+                }
+                @media only screen and (min-width: 960px) {
+                  :root {
+                    --h-position: {% if page.cover.desktop-position.horizontal %}{{ page.cover.desktop-position.horizontal }}{% else %}center{% endif %};
+                    --v-position: {% if page.cover.desktop-position.vertical %}{{ page.cover.desktop-position.vertical }}{% else %}center{% endif %};
+                  }
+                }
+              </style>
+            {% endif %}
             <img src="{{ page.cover.image }}">
           </div>
         </div>
@@ -15,9 +29,11 @@
 
     {% if page.title %}
       <div class="cover-content-container">
-        {% if page.category %}
+        {% if page.categories %}
           <div class="post-category">
-            <span>{{ page.category }}</span>
+            {% for category in page.categories %}
+              <span>{{ category }}</span>
+            {% endfor %}
           </div>
         {% endif %}
 

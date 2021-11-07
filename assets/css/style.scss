@@ -1,9 +1,12 @@
-/* @mixin font-wide {
+---
+---
+
+@mixin font-wide {
   font-family: var(--font-wide);
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-} */
+}
 
 :root {
   --color-white: #fff;
@@ -31,7 +34,6 @@
   --font-small: 0.75em;
   --font-body: "Really Sans", sans-serif;
   --font-headings: "Nichrome";
-  --font-mono: "Pitch", monospace;
   --font-wide: "Styrene", sans-serif;
   --line-height: 1.425;
 
@@ -197,6 +199,10 @@ h2 {
   text-align: center;
 }
 
+.content h2 {
+  margin-top: var(--spacing-l);
+}
+
 h3,
 label {
   border-bottom: 1px solid var(--color-dim);
@@ -206,10 +212,12 @@ label {
   text-align: left;
   width: 100%;
 
-  font-family: var(--font-wide);
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  // font-family: var(--font-wide);
+  // font-weight: 700;
+  // letter-spacing: 0.1em;
+  // text-transform: uppercase;
+
+  @include font-wide;
   font-size: 0.625em;
 
   font-variant-numeric: proportional-nums;
@@ -218,6 +226,7 @@ label {
   font-feature-settings: "pnum", "ss01";
 }
 
+h2 + h3,
 p + h3 {
   margin-top: var(--spacing-l);
 }
@@ -375,7 +384,7 @@ hr::after {
   display: block;
   margin: 0 auto;
   height: 0;
-  max-width: 10rem;
+  max-width: var(--width-s);
   width: 100%;
   border-top: 1px solid var(--color-dim);
 }
@@ -387,7 +396,6 @@ hr.width-l::after {
 /* ---------- TABLES ---------- */
 
 table {
-  font-family: var(--font-mono);
   font-size: var(--font-small);
 }
 
@@ -527,6 +535,7 @@ p.full img {
 .crop img {
   height: 100%;
   object-fit: cover;
+  object-position: var(--h-position) var(--v-position);
   width: 100%;
 }
 
@@ -567,10 +576,7 @@ p.full img {
 /* ---------- HEADER ---------- */
 
 header {
-  font-family: var(--font-wide);
-font-weight: 700;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  @include font-wide;
 
   position: -webkit-sticky;
   top: 0;
@@ -841,7 +847,7 @@ header.cover a {
     content: "";
     left: 0;
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: calc(100% - 0.1em);
   }
 }
@@ -980,18 +986,13 @@ header.mobile.cover.open a.coaching.active {
 
   .coaching-callout .cta {
     padding-left: var(--spacing-m);
-    text-align: left;
-    width: calc(100% - 4rem);
-  }
-
-  .coaching-callout .button {
-    justify-content: flex-start;
+    width: 48em;
   }
 }
 
 @media only screen and (min-width: 1080px) {
   .coaching-callout h1 {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 
@@ -1200,6 +1201,10 @@ Cover Image
   z-index: 1;
 }
 
+.blog-post .cover-container .image::before {
+  background: rgba(0,0,0,0.5);
+}
+
 .cover-container .image::after {
   background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,1) 100%);
   content: "";
@@ -1249,6 +1254,12 @@ Cover Image
   position: absolute;
   width: calc(100% - (var(--spacing-exterior) * 2));
   z-index: 1;
+}
+
+.blog-post .cover-content-container {
+  align-self: center;
+  bottom: auto;
+  margin-top: var(--header);
 }
 
 .cover-content-container .cover-title {
@@ -1308,26 +1319,32 @@ Cover Image
   justify-content: center;
 }
 
-.primary-feature .post-category,
-.page-info .post-category {
+.page-info .post-category,
+.cover-container .post-category {
   display: inline-block;
-  font-family: var(--font-wide);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  @include font-wide;
   font-size: 1rem;
   margin-bottom: var(--spacing-m);
   text-align: center;
 }
 
-.page-info .post-category span {
-  font-size: 0.625em;
+.page-info .post-category span,
+.cover-container .post-category span {
+  font-size: var(--font-small);
+}
+
+.post-category + h1.page-title {
+  margin-top: 0;
 }
 
 h1.page-title,
 h1.section-title {
   font-size: 3em;
   max-width: var(--width-l);
+}
+
+.page-info h1.page-title {
+  margin-bottom: 0;
 }
 
 .section-description {
@@ -1343,7 +1360,7 @@ h1.section-title {
 }
 
 .post-date {
-  font-family: var(--font-mono);
+  @include font-wide;
   font-size: 1rem;
   margin-top: var(--spacing-m);
   max-width: var(--width-s);
@@ -1352,22 +1369,6 @@ h1.section-title {
 
 .post-date time {
   font-size: var(--font-small);
-}
-
-.primary-feature .feature-card .post-date {
-  /* font-size: 1rem; */
-  max-width: none;
-}
-
-/* FEATURE IMAGE */
-
-.feature-image {
-  margin-top: var(--spacing-xl);
-  max-width: var(--width-m);
-}
-
-.feature-image img {
-  width: 100%;
 }
 
 /* ---------- BLOG INDEX ---------- */
@@ -1511,10 +1512,7 @@ h1.section-title {
 .blog-index a.blog-post .post-meta .post-category-container {
   color: var(--color-base);
   display: flex;
-  font-family: var(--font-wide);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  @include font-wide;
 }
 
 .blog-index a.blog-post .post-category {
@@ -1532,7 +1530,7 @@ h1.section-title {
 }
 
 .blog-index a.blog-post .post-meta time {
-  font-family: var(--font-mono);
+  @include font-wide;
 }
 
 @media only screen and (min-width: 960px) {
@@ -1644,7 +1642,7 @@ h1.blog-archive {
 
 .blog-archive time {
   flex: 0 1 auto;
-  font-family: var(--font-mono);
+  @include font-wide;
   font-size: var(--font-small);
   white-space: nowrap;
 }
@@ -1653,7 +1651,8 @@ h1.blog-archive {
 
 .post-nav {
   display: flex;
-  font-family: var(--font-headings);
+  // font-family: var(--font-headings);
+  font-size: var(--font-small);
   justify-content: space-between;
   margin: 0 auto;
   margin-top: var(--spacing-xl);
@@ -1678,14 +1677,15 @@ h1.blog-archive {
 }
 
 .post-nav p.nav-title {
-  font-family: var(--font-mono);
+  @include font-wide;
   font-size: var(--font-small);
 }
 
 .post-nav p.post-title {
   font-size: 1.25em;
-  font-weight: 500;
-  line-height: 1;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: var(--spacing-xs);
 }
 
 /* ---------- SPONSORS ---------- */
@@ -2135,10 +2135,7 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
 }
 
 .tier-more .more-text {
-  font-family: var(--font-wide);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  @include font-wide;
 
   margin-right: var(--spacing-xs);
 }
@@ -2377,10 +2374,7 @@ a.tier:hover .tier-more {
 }
 
 .TH-episodes .episode-meta .number {
-  font-family: var(--font-wide);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  @include font-wide;
   font-size: 0.625em;
 
   font-variant-numeric: proportional-nums;

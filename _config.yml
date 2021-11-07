@@ -47,3 +47,9 @@ social:
 - platform-name: Facebook
   username: patrickreaganrunning
   url: https://www.facebook.com/patrickreaganrunning/
+coaching-callout:
+  title: Ready to run&nbsp;fast?
+  description: |-
+    We are intrinsically bound to our own rhythms and struggles until we seek the perspective of others. Let’s work together to find your stride.
+  cta: Coaching Services
+  cta-link: /coaching

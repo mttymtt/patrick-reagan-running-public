@@ -1,9 +1,13 @@
 ---
 title: Sponsors
 cover:
-  image: "/uploads/e69668fe-708c-4ff9-987b-f2640347e064.JPG"
+  image: "/uploads/Chris-Lorimer_20210626CL1154_web.jpg"
   credit: Foon Fu
   credit-link: http://www.foonfu.com
+  desktop-position:
+    vertical: "5%"
+  mobile-position:
+    vertical: "top"
 has-visible-descriptions: false
 sponsors:
 - name: HOKA ONE ONE
@@ -48,7 +52,7 @@ sponsors:
   image: "/uploads/snblogo.png"
   url: http://www.squirrelsnutbutter.com/
 - name: Inside Tracker
-  description: 
+  description:
   image: "/uploads/inside-tracker-logo.jpg"
   url: https://www.insidetracker.com
 - name: Perc Coffee Roasters
@@ -59,9 +63,8 @@ sponsors:
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
 - name: Ultra Trail World Tour
-  description: 
+  description:
   image: "/uploads/UTWT_light_positif.png"
   url: https://www.ultratrail-worldtour.com/
 layout: sponsors
 ---
-

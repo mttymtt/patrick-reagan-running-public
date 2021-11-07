@@ -1,13 +1,13 @@
 <div class="coaching-callout">
   <div class="inner">
     <div class="info">
-      <h1>Ready to run&nbsp;fast?</h1>
+      <h1>{{ site.coaching-callout.title }}</h1>
     </div>
     <div class="cta">
       <div>
-        <p>We are bound to our own rhythms, pitfalls, and struggles until we seek the perspective of others. Let’s work together to find your stride.</p>
+        {{ site.coaching-callout.description | markdownify }}
         <div class="button small white-accent">
-          <a href="/coaching">Coaching Services</a>
+          <a href="{{ site.coaching-callout.cta-link }}">{{ site.coaching-callout.cta }}</a>
         </div>
       </div>
     </div>

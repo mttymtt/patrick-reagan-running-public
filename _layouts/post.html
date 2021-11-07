@@ -11,9 +11,13 @@ layout: base
 
     {% unless page.cover %}
       <div class="page-info">
-        <div class="post-category">
-          <span>{{ page.category }}</span>
-        </div>
+        {% if page.categories %}
+          <div class="post-category">
+            {% for category in page.categories %}
+              <span>{{ category }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <h1 class="page-title">
           {{ page.title }}
         </h1>

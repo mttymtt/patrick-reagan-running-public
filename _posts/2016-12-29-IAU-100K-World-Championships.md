@@ -97,8 +97,6 @@ A big shoutout Adrienne Berkland and Bill Reagan for coming to Spain to crew me 
 
 Thanks to [Compressport](http://www.compressport.com/), [Drymax Socks](http://www.drymaxsports.com/), [Fast Break Athletics](http://www.fastbreakathletics.com/), and [Perc Coffee Roasters](http://www.perccoffee.com/) for all the support this year.
 
----
-
 ## Quick recap:
 
 ### Team

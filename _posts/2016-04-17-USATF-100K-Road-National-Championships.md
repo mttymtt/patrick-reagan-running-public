@@ -36,6 +36,7 @@ Photo Credit: Wayne Gruhlke
 
 ## All-Time North American 100K List*
 
+{:.width-m}
 ### 100 Kilometers (Men)
 
 {:.width-m}
