@@ -11,15 +11,16 @@ highlights:
   year: 2016, 17, 18
 - name: Comrades Marathon 89K
   place: 12th
-  year: '2017'
+  year: 2017
 - name: IAU 100K World Championships Medalist
   place: 3rd
-  year: '2016'
+  year: 2016
 - name: USATF Olympic Trials Marathon
   place: 33rd
-  year: '2016'
+  year: 2016
 - name: 2x NCAA Division II Cross Country All-American
+  year: 2007, 2008
 - name: Slippery Rock Hall of Fame
-  year: '2021'
+  year: 2021
 ---
 
