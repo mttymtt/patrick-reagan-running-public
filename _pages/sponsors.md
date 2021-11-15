@@ -8,7 +8,7 @@ cover:
     vertical: 5%
   mobile-position:
     vertical: top
-has-visible-descriptions: false
+has-visible-descriptions: true
 sponsors:
 - name: HOKA ONE ONE
   description: |-
