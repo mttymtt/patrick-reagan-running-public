@@ -2,8 +2,8 @@
 title: Sponsors
 cover:
   image: "/uploads/Chris-Lorimer_20210626CL1154_web.jpg"
-  credit: Foon Fu
-  credit-link: http://www.foonfu.com
+  credit: HOKA ONE ONE
+  credit-link: 
   desktop-position:
     vertical: 5%
   mobile-position:
