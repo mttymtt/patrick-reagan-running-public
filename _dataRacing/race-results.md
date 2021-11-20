@@ -37,7 +37,7 @@ races:
   gender-place: 1
   time: '12:21:43'
 - name: Daufuskie Island Marathon
-  url:
+  url: 
   distance: Marathon
   time: '2:42:54'
   overall-place: '2'
@@ -45,7 +45,7 @@ races:
   location: Daufuskie Island, SC
   date: 2020-01-18 00:00:00 Z
 - name: Tarawera Ultras
-  url:
+  url: 
   distance: 102k
   time: '8:55:43'
   overall-place: '6'
@@ -77,3 +77,4 @@ races:
   location: Olympic Valley, CA
   date: 2021-06-26 00:00:00 Z
 ---
+
