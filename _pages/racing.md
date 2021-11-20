@@ -8,7 +8,11 @@ cover:
 ---
 
 {% assign race-schedule = site.dataRacing | where: 'title', 'Race Schedule' %}
-{% assign race-schedule = race-schedule[0].races | sort: 'date' | reverse %}
+{% if race-schedule[0].races %}
+  {% assign race-schedule = race-schedule[0].races | sort: 'date' %}
+{% else %}
+  {% assign race-schedule = false %}
+{% endif %}
 
 {% assign race-results = site.dataRacing | where: 'title', 'Race Results' %}
 {% assign race-results = race-results[0].races | sort: 'date' | reverse %}
@@ -18,32 +22,34 @@ cover:
 
 <div class="row gutter-l width-l h-align--space-between">
   <div class="col col-1of2 sticky">
-    <h3>Upcoming Races</h3>
-    <div class="list race-table">
-      {% for race in race-schedule %}
-        {% if race.url %}
-          <a class="item" href="{{ race.url }}">
-        {% else %}
-          <div class="item">
-        {% endif %}
-            <div class="details">
-              <div class="name">{{ race.name }}</div>
-              <time>
-                {% assign d = race.date | date: "%-d" %}
-                {{ race.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ race.date | date: "%Y" }}
-              </time>
+    {% if race-schedule %}
+      <h3>Upcoming Races</h3>
+      <div class="list race-table">
+        {% for race in race-schedule %}
+          {% if race.url %}
+            <a class="item" href="{{ race.url }}">
+          {% else %}
+            <div class="item">
+          {% endif %}
+              <div class="details">
+                <div class="name">{{ race.name }}</div>
+                <time>
+                  {% assign d = race.date | date: "%-d" %}
+                  {{ race.date | date: "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ race.date | date: "%Y" }}
+                </time>
+              </div>
+              <div class="meta">
+                <div class="type">{{ race.distance }}</div>
+                <div class="type">{{ race.time }}</div>
+              </div>
+          {% if race.url %}
+            </a>
+          {% else %}
             </div>
-            <div class="meta">
-              <div class="type">{{ race.distance }}</div>
-              <div class="type">{{ race.time }}</div>
-            </div>
-        {% if race.url %}
-          </a>
-        {% else %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
     <h3>Career Highlights</h3>
     <div class="list">
