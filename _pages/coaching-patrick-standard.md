@@ -1,14 +1,13 @@
 ---
 title: Standard Monthly Coaching
+permalink: "/coaching/patrick/standard-monthly-coaching"
 cover:
   image: "/uploads/wormsloe_sunira-moses.jpg"
   credit: Sunira Moses
   credit-link: https://unsplash.com/@sunira
   mobile-position:
     horizontal: 30%
-  description: |-
-    **with Patrick Reagan**
-permalink: /coaching/patrick/standard-monthly-coaching
+  description: "**with Patrick Reagan**"
 layout: default
 ---
 
