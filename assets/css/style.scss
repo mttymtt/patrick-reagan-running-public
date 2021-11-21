@@ -128,15 +128,17 @@ p:last-child {
 
 a {
   color: var(--color-base);
-  text-decoration: none;
+  // text-decoration: none;
+  text-decoration-line: underline;
+  text-underline-offset: .2em;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--color-accent);
 
   transition: all .1s ease-in-out;
   transition-property: color, background, border;
 }
 
-p a,
-li a {
-  border-bottom: 1px dotted var(--color-base);
+.button a {
   text-decoration: none;
 }
 
