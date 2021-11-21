@@ -42,8 +42,8 @@ coaches:
       - Access to core strength and weight vest strength training guides
       - Race schedule planning
       - Weekly check-ins on coaching platform
-    url: /contact
-    spots-available:
+    url: "/contact"
+    spots-available: 
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -52,14 +52,14 @@ coaches:
       **One hour** call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: /contact
+    url: "/contact"
     spots-available: 3 spots available per week
     is-available: true
 - name: Nicole Monette
   headshot:
     image: "/uploads/Nicole-Monette_Portrait.jpg"
-    credit:
-    credit-url:
+    credit: 
+    credit-url: 
   bio-text: |-
     Nicole is a native of Southeastern Michigan and currently resides in Brandon, Michigan with her husband, Patrick, and their three children: Peter, Jacob, and Madelyn. She attended Indiana University of Pennsylvania, earning a B.S. in exercise science, while also competing in cross country and track and field. She then went on to Slippery Rock University, earning a Doctorate of Physical Therapy. She currently runs ultramarathons for Hoka One One.
 
@@ -77,8 +77,8 @@ coaches:
       - Race schedule planning calls each season (Twice a year)
       - Daily check-ins on Coaching Platform
       - Text communication as needed
-    url: /contact
-    spots-available:
+    url: "/contact"
+    spots-available: 
     is-available: false
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -90,8 +90,8 @@ coaches:
       - Access to core strength and weight vest strength training guides
       - Race schedule planning
       - Weekly check-ins on coaching platform
-    url: /contact
-    spots-available:
+    url: "/contact"
+    spots-available: 
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -100,11 +100,11 @@ coaches:
       **One hour** call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: /contact
+    url: "/contact"
     spots-available: 3 spots available per week
     is-available: true
 page-content:
-- section:
+- section: 
   type: text
   width: large
   description: |-
@@ -118,3 +118,4 @@ page-content:
     </div>
 layout: coaching
 ---
+

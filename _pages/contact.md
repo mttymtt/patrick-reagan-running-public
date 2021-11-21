@@ -7,10 +7,10 @@ cover:
   credit-link: https://www.andrewfitts.com
 headshot:
   image: "/uploads/Oy.jpg"
-  credit:
-  credit-link:
+  credit: 
+  credit-link: 
 contact-form:
-- block:
+- block: 
   type: dropdown
   unique-block-code: service
   label: What are you interested in?
@@ -20,7 +20,7 @@ contact-form:
   - option: Consultation Call
   - option: Other
   is-required: true
-- block:
+- block: 
   type: dropdown
   unique-block-code: coach
   label: Who would you like to connect with?
@@ -30,7 +30,7 @@ contact-form:
   - option: Nicole
   - option: No preference
   is-required: true
-- block:
+- block: 
   type: long-text
   unique-block-code: message
   label: Your Message
@@ -39,3 +39,4 @@ contact-form:
     are some of your goals?
   is-required: true
 ---
+

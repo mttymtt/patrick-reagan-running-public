@@ -8,12 +8,12 @@ cover:
   desktop-position:
     vertical: bottom
 page-content:
-- section:
+- section: 
   type: text
   description: |-
     # The Low Down
     Patrick has twenty years of running experience and has been coaching endurance athletes for ten years.  He is a native of Southwestern PA and obtained a B.S. in Exercise Science while competing in Cross Country/Track and Field at Slippery Rock University. Patrick runs professionally for HOKA One One and GU Energy Labs.
-- section:
+- section: 
   type: gallery
   width: full
   columns: 2
@@ -24,11 +24,14 @@ page-content:
   - image: "/uploads/Andy-Cochrane_IMG_2498_web.JPG"
     credit: Andy Cochrane
     credit-link: https://www.andrewfitts.com
-- section:
+- section: 
   type: text
-  description: |-
-    In 2017, Patrick was honored with the USATF Ted Corbitt Ultrarunner of the Year award after stringing together a 3rd place finish at the IAU 100K World Championship and a 12th place finish at the prestigious Comrades Marathon in South Africa.  That fall he debuted in the 100 mile distance at the Javelina Jundred with his first major win and setting a course record in 13:01.14.
-- section:
+  description: In 2017, Patrick was honored with the USATF Ted Corbitt Ultrarunner
+    of the Year award after stringing together a 3rd place finish at the IAU 100K
+    World Championship and a 12th place finish at the prestigious Comrades Marathon
+    in South Africa.  That fall he debuted in the 100 mile distance at the Javelina
+    Jundred with his first major win and setting a course record in 13:01.14.
+- section: 
   type: gallery
   width: medium
   columns: 2
@@ -39,7 +42,7 @@ page-content:
   - image: uploads/Chris-Lorimer_20210626CL1154_web.jpg
     credit: Chris Lorimer
     credit-link: https://www.instagram.com/chris_lorimer/
-- section:
+- section: 
   type: text
   description: |-
     Patrick went on to win three Javelina Jundred 100 mile endurance runs in a row in 2017, 2018, and 2019.  Along the way, he won his first national championship at the 2019 USATF 100 Mile Trail Championships and set a new course record at Brazos Bend 100 in 12:21.43.  Patrick competed in his first Western States 100 Mile Endurance Run in the summer of 2019, finishing in 8th overall with a time of 15:54.31 and followed up with a 19th place performance at the 2021 WSER.
@@ -48,3 +51,4 @@ page-content:
 
     Patrick was inducted to the Slippery Rock University Athletic Hall of Fame in 2021.  He lives in Savannah, GA with his wife Adrienne, their two dogs, and two cats.
 ---
+
