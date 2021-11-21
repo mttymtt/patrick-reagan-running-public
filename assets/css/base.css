@@ -204,6 +204,18 @@ button {
   }
 }
 
+/* ---------- Background ---------- */
+
+.bg-white {
+  background: var(--color-white);
+}
+
+/* ---------- Corners ---------- */
+
+.corner--all {
+  border-radius: var(--border-radius);
+}
+
 /* ---------- Margin ---------- */
 
 .mb-xs {
@@ -228,4 +240,30 @@ button {
 
 .mb-exterior {
   margin-bottom: var(--spacing-exterior);
+}
+
+/* ---------- Padding ---------- */
+
+.padding--xs {
+  padding: var(--spacing-xs);
+}
+
+.padding--s {
+  padding: var(--spacing-s);
+}
+
+.padding--m {
+  padding: var(--spacing-m);
+}
+
+.padding--l {
+  padding: var(--spacing-l);
+}
+
+.padding--xl {
+  padding: var(--spacing-xl);
+}
+
+.padding--exterior {
+  padding: var(--spacing-exterior);
 }
