@@ -603,20 +603,20 @@ input[type=checkbox]:checked ~ .spons-container .spons-description { display: no
 
 .tier-description { flex-grow: 1; padding-top: var(--spacing-m); overflow: scroll; }
 
-.tier-description p { text-align: center; }
+.tier-description { font-size: 0.8em; }
 
 @media only screen and (min-width: 1280px) { .tier-description { max-height: 40vh; }
   .tier:nth-child(2) .tier-description { max-height: none; } }
 
 .tier-description p:first-child, .tier-description p:last-child { margin: 0; }
 
-.tier-description .perks { color: var(--color-dark); font-size: 0.8em; list-style: none; margin-bottom: 0; padding-left: 0; }
+.tier-description ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 
-.tier-description .perks li { border-top: 1px solid var(--color-light); margin: 0; padding: var(--spacing-s) 0; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
+.tier-description ul li { border-top: 1px solid var(--color-light); margin: 0; padding: var(--spacing-s) 0; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
 
-.tier-description .perks li:first-child { border: none; padding-top: 0; }
+.tier-description ul li:first-child { border: none; padding-top: 0; }
 
-.tier-description .perks li:last-child { padding-bottom: 0; }
+.tier-description ul li:last-child { padding-bottom: 0; }
 
 .tier-more { align-items: center; border-top: 1px solid var(--color-light); color: var(--color-base); display: flex; font-size: 0.625em; justify-content: space-between; padding: var(--spacing-s) var(--spacing-m); position: relative; width: 100%; }
 

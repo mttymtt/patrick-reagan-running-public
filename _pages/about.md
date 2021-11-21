@@ -2,16 +2,18 @@
 title: About
 layout: about
 cover:
-  image: "/uploads/Javelina_2019_Paul-Nelson_02.jpg"
+  image: "/uploads/Javelina_2019_Paul-Nelson_01.jpg"
   credit: Paul Nelson
   credit-link: https://paulnelson.smugmug.com
+  desktop-position:
+    vertical: bottom
 page-content:
-- section: 
+- section:
   type: text
   description: |-
     # The Low Down
-    Patrick has twenty years of running experience and has been coaching endurance athletes for ten years.  He is a native of Southwestern PA and currently resides in Savannah, GA. He obtained a B.S. in Exercise Science while competing in Cross Country/Track and Field at Slippery Rock University. He runs professionally for HOKA One One and GU Energy Labs.
-- section: 
+    Patrick has twenty years of running experience and has been coaching endurance athletes for ten years.  He is a native of Southwestern PA and obtained a B.S. in Exercise Science while competing in Cross Country/Track and Field at Slippery Rock University. Patrick runs professionally for HOKA One One and GU Energy Labs.
+- section:
   type: gallery
   width: full
   columns: 2
@@ -22,18 +24,11 @@ page-content:
   - image: "/uploads/Andy-Cochrane_IMG_2498_web.JPG"
     credit: Andy Cochrane
     credit-link: https://www.andrewfitts.com
-- section: 
+- section:
   type: text
-  description: 'In 2016, Reagan had a fantastic rookie year of ultrarunning. He finished
-    his year with two international podium finishes: 3rd place finish at the UltraVasan
-    90K in Mora, Sweden and 3rd at the IAU 100K World Championships in Los Alcazares,
-    Spain. This past year, Reagan debuted at the Comrades Marathon as the top American
-    male with a 12th place finish. He raced to the 6th fastest time by an American
-    in the race''s history (Up or Down). In August, Reagan improved his 2016 placement
-    and time at the Ultravasan 90K (6:08.48, 2nd place). In his debut at the 100 Mile
-    distance, Reagan won the Javelina Jundred 100 Mile Endurance run and bested the
-    course record by 29 minutes.'
-- section: 
+  description: |-
+    In 2017, Patrick was honored with the USATF Ted Corbitt Ultrarunner of the Year award after stringing together a 3rd place finish at the IAU 100K World Championship and a 12th place finish at the prestigious Comrades Marathon in South Africa.  That fall he debuted in the 100 mile distance at the Javelina Jundred with his first major win and setting a course record in 13:01.14.
+- section:
   type: gallery
   width: medium
   columns: 2
@@ -44,13 +39,12 @@ page-content:
   - image: uploads/Chris-Lorimer_20210626CL1154_web.jpg
     credit: Chris Lorimer
     credit-link: https://www.instagram.com/chris_lorimer/
-- section: 
+- section:
   type: text
   description: |-
-    Patrick has raced States side and internationally, traveling to New Zealand to race in Tarawera, South Africa to race in Comrades 89K and also three trips to Sweden for the UltraVasan 90K.
+    Patrick went on to win three Javelina Jundred 100 mile endurance runs in a row in 2017, 2018, and 2019.  Along the way, he won his first national championship at the 2019 USATF 100 Mile Trail Championships and set a new course record at Brazos Bend 100 in 12:21.43.  Patrick competed in his first Western States 100 Mile Endurance Run in the summer of 2019, finishing in 8th overall with a time of 15:54.31 and followed up with a 19th place performance at the 2021 WSER.
 
-    After graduating from university, Patrick played Washboard Percussion and Tenor Guitar in several ragtime bands based out of New Orleans, LA and Savannah, GA. Reagan toured through 36 states with the groups he played with in 2009-2011. Following his musical career, he spent three years in the tricycle taxi transportation industry for Savannah Pedicab.
+    Patrick has finished on the podium three times at the Ultravasan 90K in 2016-2018.  In 2020, Patrick won the Yeti 100 Mile Endurance Run setting a new course record en route. Patrick’s marks in the 50 mile (5:08), 100K (6:33), and 100 mile (12:21) distances all sit on the All-Time Top 10 north American Lists.
 
-    When not running, Patrick is listening to Pre-WW2 jug band, ragtime, and jazz records. He also has a healthy infatuation with Science Fiction, Fantasy, and Historical Fiction novels. Reagan lives in Savannah, GA with his wife, Adrienne and their two dogs and two cats.
+    Patrick was inducted to the Slippery Rock University Athletic Hall of Fame in 2021.  He lives in Savannah, GA with his wife Adrienne, their two dogs, and two cats.
 ---
-

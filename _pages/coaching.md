@@ -21,48 +21,45 @@ coaches:
   tiers:
   - name: Premium
     subtitle: Personalized Monthly Coaching
-    description: Flexible, unique training plan personalized for your busy schedule
     price: "$350"
     price-time-unit: "/mo"
-    perks:
-    - All of the bells & whistles of the Standard Program
-    - Two monthly 45 minute calls to discuss training
-    - Race schedule planning calls each season (Twice a year)
-    - Daily check-ins on Coaching Platform
-    - Text communication as needed
+    perks-description: |-
+      - All of the bells & whistles of the Standard Program
+      - Two monthly 45 minute calls to discuss training
+      - Race schedule planning calls each season (Twice a year)
+      - Daily check-ins on Coaching Platform
+      - Text communication as needed
     url: https://buy.stripe.com/test_4gwdTv3L5aC96IgdQR
-    spots-available: 1
+    spots-available: 1 spot available
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
-    description: 'The whole package: Unlimited emails, text, phone and Skype calls'
     price: "$200"
     price-time-unit: "/mo"
-    perks:
-    - Daily training updated in training document
-    - Monthly 30 minute call to discuss training
-    - Access to core strength and weight vest strength training guides
-    - Race schedule planning
-    - Weekly check-ins on coaching platform
-    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GJTA9YAE5U33U
-    spots-available: 
+    perks-description: |-
+      - Daily training updated in training document
+      - Monthly 30 minute call to discuss training
+      - Access to core strength and weight vest strength training guides
+      - Race schedule planning
+      - Weekly check-ins on coaching platform
+    url: /contact
+    spots-available:
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
-    description: Build a 12-week training plan tailored to you
     price: "$70"
-    perks:
-    - One Hour call to discuss training concepts, weekly training, race schedule,
+    perks-description: |-
+      **One hour** call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: https://www.paypal.com/us/home
-    spots-available: 
+    url: /contact
+    spots-available: 3 spots available per week
     is-available: true
 - name: Nicole Monette
   headshot:
     image: "/uploads/Nicole-Monette_Portrait.jpg"
-    credit: 
-    credit-url: 
+    credit:
+    credit-url:
   bio-text: |-
     Nicole is a native of Southeastern Michigan and currently resides in Brandon, Michigan with her husband, Patrick, and their three children: Peter, Jacob, and Madelyn. She attended Indiana University of Pennsylvania, earning a B.S. in exercise science, while also competing in cross country and track and field. She then went on to Slippery Rock University, earning a Doctorate of Physical Therapy. She currently runs ultramarathons for Hoka One One.
 
@@ -72,45 +69,42 @@ coaches:
   tiers:
   - name: Premium
     subtitle: Personalized Monthly Coaching
-    description: Flexible, unique training plan personalized for your busy schedule
     price: "$350"
     price-time-unit: "/mo"
-    perks:
-    - All of the bells & whistles of the Standard Program
-    - Two monthly 45 minute calls to discuss training
-    - Race schedule planning calls each season (Twice a year)
-    - Daily check-ins on Coaching Platform
-    - Text communication as needed
-    url: https://www.paypal.com/us/home
-    spots-available: 
+    perks-description: |-
+      - All of the bells & whistles of the Standard Program
+      - Two monthly 45 minute calls to discuss training
+      - Race schedule planning calls each season (Twice a year)
+      - Daily check-ins on Coaching Platform
+      - Text communication as needed
+    url: /contact
+    spots-available:
     is-available: false
   - name: Standard
     subtitle: Personalized Monthly Coaching
-    description: 'The whole package: Unlimited emails, text, phone and Skype calls'
     price: "$200"
     price-time-unit: "/mo"
-    perks:
-    - Daily training updated in training document
-    - Monthly 30 minute call to discuss training
-    - Access to core strength and weight vest strength training guides
-    - Race schedule planning
-    - Weekly check-ins on coaching platform
-    url: https://www.paypal.com/us/home
-    spots-available: 
+    perks-description: |-
+      - Daily training updated in training document
+      - Monthly 30 minute call to discuss training
+      - Access to core strength and weight vest strength training guides
+      - Race schedule planning
+      - Weekly check-ins on coaching platform
+    url: /contact
+    spots-available:
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
-    description: Build a 12-week training plan tailored to you
     price: "$70"
-    perks:
-    - One Hour call to discuss training concepts, weekly training, race schedule,
+    perks-description: |-
+      **One hour** call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
-    url: https://www.paypal.com/us/home
-    spots-available: 
+    url: /contact
+    spots-available: 3 spots available per week
     is-available: true
 page-content:
-- section: 
+- section:
   type: text
   width: large
   description: |-
@@ -124,4 +118,3 @@ page-content:
     </div>
 layout: coaching
 ---
-

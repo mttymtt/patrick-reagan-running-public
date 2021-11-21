@@ -2059,8 +2059,8 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   overflow: scroll;
 }
 
-.tier-description p {
-  text-align: center;
+.tier-description {
+  font-size: 0.8em;
 }
 
 
@@ -2079,15 +2079,13 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   margin: 0;
 }
 
-.tier-description .perks {
-  color: var(--color-dark);
-  font-size: 0.8em;
+.tier-description ul {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-.tier-description .perks li {
+.tier-description ul li {
   border-top: 1px solid var(--color-light);
   margin: 0;
   padding: var(--spacing-s) 0;
@@ -2098,12 +2096,12 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   hyphens: none;
 }
 
-.tier-description .perks li:first-child {
+.tier-description ul li:first-child {
   border: none;
   padding-top: 0;
 }
 
-.tier-description .perks li:last-child {
+.tier-description ul li:last-child {
   padding-bottom: 0;
 }
 

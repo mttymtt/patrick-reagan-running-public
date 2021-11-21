@@ -37,12 +37,8 @@ layout: page
             <span>{{ tier.price }}{% if tier.price-time-unit %}<span class="unit">{{ tier.price-time-unit }}</span>{% endif %}</span>
           </div>
           <div class="tier-description">
-            {% if tier.perks %}
-              <ul class="perks">
-                {% for perk in tier.perks %}
-                  <li>{{ perk }}</li>
-                {% endfor %}
-              </ul>
+            {% if tier.perks-description %}
+              {{ tier.perks-description | markdownify }}
             {% endif %}
           </div>
           <div class="tier-more">
@@ -56,7 +52,7 @@ layout: page
               </div>
               {% if tier.spots-available %}
                 <div class="spots">
-                  {{ tier.spots-available }} spot{% if tier.spots-available > 1 %}s{% endif %} available
+                  {{ tier.spots-available }}
                 </div>
               {% endif %}
             {% else %}
