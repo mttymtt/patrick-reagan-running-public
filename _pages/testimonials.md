@@ -38,8 +38,8 @@ testimonials:
     and is always an encouraging voice when the inevitable doubts creep in.
 - name: Nicholas Mamrak
   image: "/uploads/Nicholas-Mamrak_01.jpg"
-  credit:
-  credit-link:
+  credit: 
+  credit-link: 
   highlight: The attention to detail given to each athlete is what sets Pat apart.
   description: Since beginning to work with Pat a little over a year ago I have seen
     huge improvements in my running. Across the full spectrum of paces and distances,
@@ -53,8 +53,8 @@ testimonials:
     running.
 - name: Whitney Richman
   image: "/uploads/Whitney-Richman_03.jpg"
-  credit:
-  credit-link:
+  credit: 
+  credit-link: 
   highlight: Patrick listens to my needs and creates the flexibility I need with having
     two young children.
   description: I've really enjoyed working with Patrick for the last 1 ½ years. I
@@ -65,3 +65,4 @@ testimonials:
     corners. I am more confident and mentally strong thanks to his continued support
     and confidence in me.
 ---
+
