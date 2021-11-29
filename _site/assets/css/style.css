@@ -518,7 +518,7 @@ h1.blog-archive { margin-top: var(--spacing-xl); margin-bottom: 1em; }
 .spons-container { display: flex; flex-wrap: wrap; justify-content: center; max-width: calc(var(--width-l) + var(--spacing-m)); }
 
 /* .spons-container::after { content: ""; width: 100%; } */
-.spons { background: var(--color-white); border-radius: var(--border-radius); margin: 0; margin-bottom: var(--spacing-m); padding: var(--spacing-m); min-width: 100%; max-width: 100%; width: 100%; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+.spons { background: var(--color-white); border-radius: var(--border-radius); display: flex; flex-direction: column; justify-content: center; margin: 0; margin-bottom: var(--spacing-m); padding: var(--spacing-m); min-width: 100%; max-width: 100%; width: 100%; flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
 
 a.spons { position: relative; text-decoration: none; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; transition: all .1s ease-in-out; }
 
@@ -535,6 +535,8 @@ a.spons:hover::before { opacity: 1; }
 .spons .spons-logo div { display: flex; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
 
 .spons .spons-logo img { height: 100%; max-width: 500px; object-fit: contain; width: 100%; }
+
+.spons .spons-description { flex-grow: 1; }
 
 /* Hover */
 a.spons:hover { color: var(--color-base); }
