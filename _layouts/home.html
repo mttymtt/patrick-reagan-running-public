@@ -4,7 +4,7 @@ layout: page
 
 <section>
   <div class="row width-m h-align--space-between v-align--center gutter-l reverse">
-    <div class="image col col-1of2">
+    <div class="image col col-1of2 mb-s">
       <div class="crop crop-4x5">
         <div>
           <img src="/uploads/Howie-Stern_06.jpg">
@@ -15,22 +15,35 @@ layout: page
       </div>
     </div>
 
-    <div class="info col col-1of2">
+    <div class="info col col-1of2 mb-l">
       <h2>Training plans built specifically for you.</h2>
       <p>Over the years, I’ve been working with a wide variety of athletes to help them accomplish their goals. We are all different, and so we all deserve more than vague training philosophies. We deserve individual attention.</p>
-      <div class="button left">
+      <div class="button">
         <a href="/coaching">Let’s talk training</a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="testimonials-container" class="testimonials-container width-m">
-
-</section>
+{% comment %}
+From here down is the testimonial section.
+By default, the section uses the first
+testimonial on the testimonials page in
+case JS is disabled or doesn't work for
+some reason.
+{% endcomment %}
 
 {% assign testimonials = site.pages | where: 'title', 'Testimonials' %}
 {% assign testimonials = testimonials[0].testimonials %}
+
+<section id="testimonials-container" class="testimonials-container width-m">
+  {% for testimonial in testimonials %}
+    {% if forloop.first %}
+      {% include testimonial.html %}
+    {% endif %}
+  {% endfor %}
+  <div class="button"><a href="/testimonials">See what others have to say</a></div>
+</section>
 
 <script>
   var testimonialContainer = document.getElementById("testimonials-container");

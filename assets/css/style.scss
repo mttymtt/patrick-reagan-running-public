@@ -298,7 +298,13 @@ label + p {
 .button {
   display: flex;
   justify-content: center;
-  margin: var(--spacing-m) auto;
+  margin: var(--spacing-s) auto;
+}
+
+@media only screen and (min-width: 960px) {
+  .button {
+    margin: var(--spacing-m) auto;
+  }
 }
 
 h3 + .button,
@@ -2317,11 +2323,7 @@ a.tier:hover .tier-more {
   border: none;
   display: flex;
   flex-direction: column;
-
-  -webkit-transition: all .1s ease-in-out;
-  -moz-transition: all .1s ease-in-out;
-  -ms-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
+  text-decoration: none;
   transition: all .1s ease-in-out;
 }
 
@@ -2354,7 +2356,7 @@ a.tier:hover .tier-more {
 
 .TH-episodes .episode-details h2 {
   font-size: 1.75em;
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-s);
   text-align: left;
 }
 
@@ -2393,6 +2395,10 @@ a.tier:hover .tier-more {
 
 .list {
   margin-bottom: var(--spacing-l);
+}
+
+.list a {
+  text-decoration: none;
 }
 
 .list + .button {

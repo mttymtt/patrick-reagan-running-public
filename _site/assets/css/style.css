@@ -67,7 +67,9 @@ label, label + p { border: 0; margin: 0; padding: 0; }
 .button input { align-self: center; transition: all .1s ease-in-out; width: auto; }
 
 /* Buttons */
-.button { display: flex; justify-content: center; margin: var(--spacing-m) auto; }
+.button { display: flex; justify-content: center; margin: var(--spacing-s) auto; }
+
+@media only screen and (min-width: 960px) { .button { margin: var(--spacing-m) auto; } }
 
 h3 + .button, fieldset + .button { margin-top: 0; }
 
@@ -686,7 +688,7 @@ a.tier:hover .tier-title, a.tier:hover .tier-more { color: var(--color-accent); 
 
 .TH-episodes .episode-card:hover::after { opacity: 1; }
 
-.TH-episodes .episode-card a { border: none; display: flex; flex-direction: column; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; transition: all .1s ease-in-out; }
+.TH-episodes .episode-card a { border: none; display: flex; flex-direction: column; text-decoration: none; transition: all .1s ease-in-out; }
 
 .TH-episodes .episode-card a:hover { color: currentColor; transform: scale(1.01); }
 
@@ -698,7 +700,7 @@ a.tier:hover .tier-title, a.tier:hover .tier-more { color: var(--color-accent); 
 
 .TH-episodes .episode-details * { margin: 0; }
 
-.TH-episodes .episode-details h2 { font-size: 1.75em; margin-bottom: var(--spacing-xs); text-align: left; }
+.TH-episodes .episode-details h2 { font-size: 1.75em; margin-bottom: var(--spacing-s); text-align: left; }
 
 .TH-episodes .episode-meta { border-top: 1px solid var(--color-light); border-radius: 0 0 var(--border-radius) var(--border-radius); margin: 0; padding: var(--spacing-s) var(--spacing-m); text-align: left; align-items: center; display: flex; justify-content: space-between; }
 
@@ -710,6 +712,8 @@ a.tier:hover .tier-title, a.tier:hover .tier-more { color: var(--color-accent); 
 
 /* ---------- RACING ---------- */
 .list { margin-bottom: var(--spacing-l); }
+
+.list a { text-decoration: none; }
 
 .list + .button { margin-top: calc(var(--spacing-m) * -1); }
 
