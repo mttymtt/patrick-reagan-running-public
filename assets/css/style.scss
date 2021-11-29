@@ -1878,11 +1878,8 @@ input[type=checkbox]:checked ~ .spons-container .spons-description {
   margin-bottom: var(--spacing-s);
   /* overflow: hidden; */
   position: relative;
+  text-decoration: none;
 
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 

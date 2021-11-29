@@ -557,7 +557,7 @@ input[type=checkbox]:checked ~ .spons-container .spons-description { display: no
 
 .tiers-container .tier, .tiers-container .tier::after { width: 100%; }
 
-.tiers-container .tier { background: var(--color-white); border-radius: var(--border-radius); display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; margin-bottom: var(--spacing-s); /* overflow: hidden; */ position: relative; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.tiers-container .tier { background: var(--color-white); border-radius: var(--border-radius); display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; margin-bottom: var(--spacing-s); /* overflow: hidden; */ position: relative; text-decoration: none; transition: all .2s ease-in-out; }
 
 .tiers-container .tier:hover { transform: scale(1.02); }
 
