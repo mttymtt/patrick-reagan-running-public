@@ -500,13 +500,13 @@ p.full img {
 }
 
 .photo-credit a {
-  border-bottom: 1px dotted var(--color-white);
-  color: var(--color-white);
-  text-decoration: none;
+  color: inherit;
+  text-decoration-color: var(--color-white);
+  text-decoration-thickness: 1px;
 }
 
 .photo-credit a:hover {
-  border-bottom: 1px dotted transparent;
+  text-decoration-color: var(--color-accent);
 }
 
 .photo-credit::after {
