@@ -89,6 +89,7 @@ body {
   background-image: var(--grain);
   background-blend-mode: hard-light;
   line-height: var(--line-height);
+  font-feature-settings: "ss04";
 
   -webkit-hyphens: auto;
 	-webkit-hyphenate-limit-before: 4;
