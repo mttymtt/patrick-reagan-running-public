@@ -218,6 +218,30 @@ button {
 
 /* ---------- Margin ---------- */
 
+.mt-xs {
+  margin-top: var(--spacing-xs);
+}
+
+.mt-s {
+  margin-top: var(--spacing-s);
+}
+
+.mt-m {
+  margin-top: var(--spacing-m);
+}
+
+.mt-l {
+  margin-top: var(--spacing-l);
+}
+
+.mt-xl {
+  margin-top: var(--spacing-xl);
+}
+
+.mt-exterior {
+  margin-top: var(--spacing-exterior);
+}
+
 .mb-xs {
   margin-bottom: var(--spacing-xs);
 }
@@ -241,6 +265,8 @@ button {
 .mb-exterior {
   margin-bottom: var(--spacing-exterior);
 }
+
+
 
 /* ---------- Padding ---------- */
 

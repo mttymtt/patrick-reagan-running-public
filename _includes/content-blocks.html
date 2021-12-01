@@ -56,6 +56,10 @@
           {% endfor %}
         </div>
       {% endif %}
+
+      {% if section.type == "form" %}
+        {% include custom-form.html %}
+      {% endif %}
     </section>
   {% endfor %}
 {% endif %}

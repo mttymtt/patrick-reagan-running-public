@@ -45,7 +45,7 @@ h2 { font-size: 2em; letter-spacing: 0.02em; margin-bottom: var(--spacing-s); te
 
 h2:first-child { margin-top: 0; }
 
-h3, label { border-bottom: 1px solid var(--color-dim); color: var(--color-dark); padding-bottom: var(--spacing-xs); margin-bottom: var(--spacing-s); text-align: left; width: 100%; font-family: var(--font-wide); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.625em; font-variant-numeric: proportional-nums; -moz-font-feature-settings: "pnum", "ss01"; -webkit-font-feature-settings: "pnum", "ss01"; font-feature-settings: "pnum", "ss01"; }
+h3 { border-bottom: 1px solid var(--color-dim); color: var(--color-dark); padding-bottom: var(--spacing-xs); margin-bottom: var(--spacing-s); text-align: left; width: 100%; font-family: var(--font-wide); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.625em; font-variant-numeric: proportional-nums; -moz-font-feature-settings: "pnum", "ss01"; -webkit-font-feature-settings: "pnum", "ss01"; font-feature-settings: "pnum", "ss01"; }
 
 h2 + h3, p + h3 { margin-top: var(--spacing-l); }
 
@@ -53,6 +53,12 @@ h2 + h3, p + h3 { margin-top: var(--spacing-l); }
 fieldset { display: flex; flex-wrap: wrap; width: 100%; }
 
 .content form .form-item { display: flex; flex-direction: column; margin-bottom: var(--spacing-m); width: 100%; }
+
+.content form .item-description { width: 100%; }
+
+.content form .item-description > p:first-child { margin-top: 0; }
+
+label { font-weight: 700; }
 
 input, label, select, textarea { display: flex; width: 100%; }
 
@@ -62,7 +68,7 @@ input, select { background: var(--color-white); -webkit-appearance: none; }
 
 textarea { max-height: 40vh; height: 500px; }
 
-label, label + p { border: 0; margin: 0; padding: 0; }
+label, label + p, .form-item h1, .form-item h2 { border: 0; margin: 0; padding: 0; }
 
 .button input { align-self: center; transition: all .1s ease-in-out; width: auto; }
 
@@ -169,6 +175,12 @@ p.full img { margin: var(--spacing-m) 0; width: 100%; }
 .text-center { text-align: center; }
 
 .text-small { font-size: var(--font-small); }
+
+.text-dark { color: var(--color-dark); }
+
+.text-mid { color: var(--color-mid); }
+
+.text-dim { color: var(--color-dim); }
 
 @media only screen and (min-width: 960px) { .sticky { position: sticky; position: -webkit-sticky; top: calc(var(--header) + var(--spacing-s)); } }
 
