@@ -25,9 +25,12 @@ layout: page
     {% assign counter = counter | plus: 1%}
   {% endfor %}
 
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
   <section class="tiers-container coaching" style="--tier-count: {% if counter > 4 %}4{% else %}{{ counter }}{% endif %}">
     {% for tier in coach.tiers %}
-      {% if tier.is-available == true %}<a class="tier available" href="{{ tier.url }}">{% else %}<div class="tier unavailable">{% endif %}
+      {% if tier.is-available == true %}<a class="tier available" href="{{ tier.url }}" {% if tier.on-click %}onclick="{{ tier.on-click }}"{% endif %}>{% else %}<div class="tier unavailable">{% endif %}
         <div class="tier-info">
           <div class="tier-title">
             <h2>{{ tier.name }}</h2>
@@ -66,5 +69,3 @@ layout: page
     {% endfor %}
   </section>
 {% endfor %}
-
-{% include content-blocks.html %}

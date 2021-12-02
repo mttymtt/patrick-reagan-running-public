@@ -53,9 +53,9 @@ coaches:
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
     url: ""
-    on-click: ""
+    on-click: "Calendly.initPopupWidget({url: 'https://calendly.com/mttymtt/60min'});return false;"
     spots-available: 4 spots available per week
-    is-available: false
+    is-available: true
 - name: Nicole Monette
   headshot:
     image: "/uploads/Nicole-Monette_Portrait.jpg"
