@@ -92,36 +92,40 @@ body {
   line-height: var(--line-height);
   font-feature-settings: "ss04";
 
-  -webkit-hyphens: auto;
-	-webkit-hyphenate-limit-before: 4;
-	-webkit-hyphenate-limit-after: 3;
-	-webkit-hyphenate-limit-chars: 7 4 3;
-	-webkit-hyphenate-limit-lines: 2;
-	-webkit-hyphenate-limit-zone: 8%;
-	-webkit-hyphenate-limit-last: always;
-
-	-moz-hyphens: auto;
-	-moz-hyphenate-limit-chars: 7 4 3;
-	-moz-hyphenate-limit-lines: 2;
-	-moz-hyphenate-limit-zone: 8%;
-	-moz-hyphenate-limit-last: always;
-
-	-ms-hyphens: auto;
-	-ms-hyphenate-limit-chars: 7 4 3;
-	-ms-hyphenate-limit-lines: 2;
-	-ms-hyphenate-limit-zone: 8%;
-	-ms-hyphenate-limit-last: always;
-
-	hyphens: auto;
-	hyphenate-limit-chars: 7 4 3;
-	hyphenate-limit-lines: 2;
-	hyphenate-limit-zone: 8%;
-	hyphenate-limit-last: always;
+  // -webkit-hyphens: auto;
+	// -webkit-hyphenate-limit-before: 4;
+	// -webkit-hyphenate-limit-after: 3;
+	// -webkit-hyphenate-limit-chars: 7 4 3;
+	// -webkit-hyphenate-limit-lines: 2;
+	// -webkit-hyphenate-limit-zone: 8%;
+	// -webkit-hyphenate-limit-last: always;
+  //
+	// -moz-hyphens: auto;
+	// -moz-hyphenate-limit-chars: 7 4 3;
+	// -moz-hyphenate-limit-lines: 2;
+	// -moz-hyphenate-limit-zone: 8%;
+	// -moz-hyphenate-limit-last: always;
+  //
+	// -ms-hyphens: auto;
+	// -ms-hyphenate-limit-chars: 7 4 3;
+	// -ms-hyphenate-limit-lines: 2;
+	// -ms-hyphenate-limit-zone: 8%;
+	// -ms-hyphenate-limit-last: always;
+  //
+	// hyphens: auto;
+	// hyphenate-limit-chars: 7 4 3;
+	// hyphenate-limit-lines: 2;
+	// hyphenate-limit-zone: 8%;
+	// hyphenate-limit-last: always;
 }
 
 p {
   margin-top: var(--spacing-s);
   margin-bottom: var(--spacing-s);
+}
+
+p:first-child {
+  margin-top: 0;
 }
 
 p:last-child {
@@ -313,7 +317,7 @@ label + p,
 
 @media only screen and (min-width: 960px) {
   .button {
-    margin: var(--spacing-m) auto;
+    margin: var(--spacing-s) auto;
   }
 }
 
@@ -358,7 +362,7 @@ fieldset + .button {
 }
 
 .button.large {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .button.left {
@@ -983,7 +987,13 @@ header.mobile.cover.open a.coaching.active {
 }
 
 .coaching-callout .info {
-  padding: var(--spacing-m);
+  padding: var(--spacing-s);
+}
+
+@media only screen and (min-width: 960px) {
+  .coaching-callout .info {
+    padding: var(--spacing-m);
+  }
 }
 
 .coaching-callout h1 {
@@ -1334,10 +1344,6 @@ Cover Image
 
 #home .cover-title {
   max-width: var(--width-m);
-}
-
-#home section h2 {
-  text-align: left;
 }
 
 /* ---------- PAGES ---------- */

@@ -13,9 +13,11 @@ html, body { margin: 0; }
 
 html { font-family: var(--font-body); font-size: var(--font-size); }
 
-body { background: var(--color-light); background-image: var(--grain); background-blend-mode: hard-light; line-height: var(--line-height); font-feature-settings: "ss04"; -webkit-hyphens: auto; -webkit-hyphenate-limit-before: 4; -webkit-hyphenate-limit-after: 3; -webkit-hyphenate-limit-chars: 7 4 3; -webkit-hyphenate-limit-lines: 2; -webkit-hyphenate-limit-zone: 8%; -webkit-hyphenate-limit-last: always; -moz-hyphens: auto; -moz-hyphenate-limit-chars: 7 4 3; -moz-hyphenate-limit-lines: 2; -moz-hyphenate-limit-zone: 8%; -moz-hyphenate-limit-last: always; -ms-hyphens: auto; -ms-hyphenate-limit-chars: 7 4 3; -ms-hyphenate-limit-lines: 2; -ms-hyphenate-limit-zone: 8%; -ms-hyphenate-limit-last: always; hyphens: auto; hyphenate-limit-chars: 7 4 3; hyphenate-limit-lines: 2; hyphenate-limit-zone: 8%; hyphenate-limit-last: always; }
+body { background: var(--color-light); background-image: var(--grain); background-blend-mode: hard-light; line-height: var(--line-height); font-feature-settings: "ss04"; }
 
 p { margin-top: var(--spacing-s); margin-bottom: var(--spacing-s); }
+
+p:first-child { margin-top: 0; }
 
 p:last-child { margin-bottom: 0; }
 
@@ -75,7 +77,7 @@ label, label + p, .form-item h1, .form-item h2 { border: 0; margin: 0; padding: 
 /* Buttons */
 .button { display: flex; justify-content: center; margin: var(--spacing-s) auto; }
 
-@media only screen and (min-width: 960px) { .button { margin: var(--spacing-m) auto; } }
+@media only screen and (min-width: 960px) { .button { margin: var(--spacing-s) auto; } }
 
 h3 + .button, fieldset + .button { margin-top: 0; }
 
@@ -89,7 +91,7 @@ h3 + .button, fieldset + .button { margin-top: 0; }
 
 .button.small a { /* font-weight: 600; */ }
 
-.button.large { font-size: 1.5em; }
+.button.large { font-size: 1.25em; }
 
 .button.left { justify-content: flex-start; }
 
@@ -289,7 +291,9 @@ header.mobile.cover.open a.coaching:hover, header.mobile.cover.open a.coaching.a
 
 .coaching-callout .info, .coaching-callout .cta { align-items: center; display: flex; justify-content: center; width: 100%; }
 
-.coaching-callout .info { padding: var(--spacing-m); }
+.coaching-callout .info { padding: var(--spacing-s); }
+
+@media only screen and (min-width: 960px) { .coaching-callout .info { padding: var(--spacing-m); } }
 
 .coaching-callout h1 { font-size: 15vw; font-weight: 1000; line-height: 0.65; margin-bottom: 0; text-align: center; }
 
@@ -407,8 +411,6 @@ Cover Image
 
 /* ---------- HOME ---------- */
 #home .cover-title { max-width: var(--width-m); }
-
-#home section h2 { text-align: left; }
 
 /* ---------- PAGES ---------- */
 .page-info, .section-info { margin-bottom: var(--spacing-xl); }
