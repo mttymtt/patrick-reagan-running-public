@@ -3,8 +3,8 @@ title: Payment Success
 permalink: "/success"
 cover:
   image: "/uploads/81799592_1325945954260205_7473881348655022080_o.jpg"
-  credit:
-  credit-link:
+  credit: 
+  credit-link: 
   headline: Payment Success! <br> What’s Next?
   desktop-position:
     vertical: bottom

@@ -3,7 +3,7 @@ title: Sponsors
 cover:
   image: "/uploads/Chris-Lorimer_20210626CL1154_web.jpg"
   credit: HOKA
-  credit-link:
+  credit-link: 
   desktop-position:
     vertical: 5%
   mobile-position:
@@ -52,7 +52,7 @@ sponsors:
   image: "/uploads/snblogo.png"
   url: http://www.squirrelsnutbutter.com/
 - name: Inside Tracker
-  description:
+  description: 
   image: "/uploads/inside-tracker-logo.jpg"
   url: https://www.insidetracker.com
 - name: Perc Coffee Roasters
@@ -63,8 +63,9 @@ sponsors:
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
 - name: Ultra Trail World Tour
-  description:
+  description: 
   image: "/uploads/UTWT_light_positif.png"
   url: https://www.ultratrail-worldtour.com/
 layout: sponsors
 ---
+

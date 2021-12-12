@@ -3,8 +3,8 @@ title: Consultation Success
 permalink: "/consultation-success"
 cover:
   image: "/uploads/81799592_1325945954260205_7473881348655022080_o.jpg"
-  credit:
-  credit-link:
+  credit: 
+  credit-link: 
   headline: Payment Success! <br> One more thing…
   desktop-position:
     vertical: bottom
