@@ -2,11 +2,11 @@
   <fieldset id="fs-frm-inputs">
     <fieldset id="fs-frm-info" class="row gutter-m h-align--space-between">
       <div class="form-item col col-1of2">
-        <label for="full-name">What’s your name?</label>
+        <label for="full-name">What’s your name?*</label>
         <input type="text" name="name" id="full-name" placeholder="First and Last" required="true">
       </div>
       <div class="form-item col col-1of2">
-        <label for="email-address">What’s your email address?</label>
+        <label for="email-address">What’s your email address?*</label>
         <input type="email" name="_replyto" id="email-address" placeholder="speedy3000@hotwheels.com" required="true">
       </div>
     </fieldset>
@@ -16,7 +16,7 @@
         {% if block.type == "heading" %}
           <h1>{{ block.label }}</h1>
         {% else %}
-          <label for="{{ block.label | slugify }}">{{ block.label }}</label>
+          <label for="{{ block.label | slugify }}">{{ block.label }}{% if block.is-required %}*{% endif %}</label>
         {% endif %}
 
         {% if block.description %}

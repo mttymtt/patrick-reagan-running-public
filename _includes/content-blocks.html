@@ -30,6 +30,12 @@
         </div>
       {% endif %}
 
+      {% if section.type == "video" %}
+        <div class="video">
+          {{ section.embed-code }}
+        </div>
+      {% endif %}
+
       {% if section.type == "gallery" %}
         {% if section.columns %}
           {% if section.columns > 4 %}

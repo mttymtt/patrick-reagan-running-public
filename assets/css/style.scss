@@ -252,6 +252,10 @@ fieldset {
   width: 100%;
 }
 
+fieldset .form-item:not(:first-child) h1 {
+  margin-top: var(--spacing-l);
+}
+
 .content form .item-description {
   width: 100%;
 }

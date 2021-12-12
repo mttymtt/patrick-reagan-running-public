@@ -4,7 +4,9 @@ layout: base
 
 {% include header.html %}
 
-{% include cover-image.html %}
+{% if page.cover %}
+  {% include cover-image.html %}
+{% endif %}
 
 <div class="content-container">
   <div class="content">

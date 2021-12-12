@@ -54,6 +54,7 @@
   font-size: 2em;
   font-weight: 700;
   line-height: 1;
+  margin-bottom: var(--spacing-s);
   position: relative;
 
   -webkit-hyphens: none;

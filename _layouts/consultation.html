@@ -1,66 +1,24 @@
 ---
-layout: base
+layout: default
 ---
 
-{% include header.html %}
-
-<div class="content-container">
-  <div class="content">
-
-    <div class="product-container">
-      <div class="product-image-container">
-        <div class="product-image">
-          <div class="crop crop-4x5">
-            <div>
-              <img src="{{ page.plan-image }}">
-            </div>
-          </div>
-        </div>
-
-        {% if page.plan-notice %}
-          <div class="card-notice">
-            {{ page.plan-notice }}
-          </div>
-        {% endif %}
-      </div>
-
-      <div class="product-info">
-        <div class="product-price">
-          {{ page.plan-price }}
-        </div>
-        <div class="product-title">
-          <h1>{{ page.title }}</h1>
-        </div>
-        {% if page.plan-subtitle %}
-          <div class="product-subtitle">
-            <h2>{{ page.plan-subtitle }}</h2>
-          </div>
-        {% endif %}
-
-        <div class="product-price-container button">
-          <script src="https://gumroad.com/js/gumroad.js"></script>
-          <a class="purchase-button" href="https://gum.co/{{ page.gumroad-code }}?wanted=true" target="_blank">Purchase</a>
-
-          <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script>
-          <a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/bookingpage/208f5931-6323-47b6-88ba-6be3783bc089"><img border="none" src="https://my.setmore.com/webapp/images/button/book-now-blue.svg" alt="Book an appointment with Matthew Smith using Setmore" /></a>
-        </div>
-
-      </div>
-
-    </div>
-
-    {{ content }}
-
-    <div class="back-link">
-      <a href="/shop">
-        <span class="arrow">
-          <svg width="21" height="10" viewBox="0 0 21 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 5H20" stroke="black"></path><path d="M16 1L20 5L16 9" stroke="black"></path></svg>
-        </span>
-        <span>Back to Shop</span>
-      </a>
-    </div>
-
-  </div>
+<div class="width-s bg-white padding--m corner--all mb-xl">
+  {{ page.instructions-description | markdownify }}
 </div>
 
-{% include footer.html %}
+<div class="row width-l gutter-l h-align--space-between">
+  {% for coach in page.coaches %}
+    <div class="col col-1of2 mb-xl">
+      <h1>{{ coach.name | split: ' ' | first }}’s Calendar</h1>
+      <div class="button">
+        <a href="{{ coach.paypal-link }}">{{ coach.paypal-link-text }}</a>
+      </div>
+      <div class="calendly-inline-widget" data-url="{{ coach.calendly-url }}?primary_color=6ca04b" style="min-width:320px;height:908px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="width-s bg-white padding--m corner--all">
+  {{ page.extra-description | markdownify }}
+</div>
