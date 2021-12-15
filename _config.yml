@@ -31,7 +31,8 @@ defaults:
   values:
     layout: page
 permalink: pretty
-description: Personalized coaching for ultra marathons and long distance running by professional athlete, Patrick Reagan.
+description: Personalized coaching for ultra marathons and long distance running by
+  professional athlete, Patrick Reagan.
 baseurl: ''
 email: patrickreaganrunning@gmail.com
 social:
