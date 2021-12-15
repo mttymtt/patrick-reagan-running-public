@@ -1,16 +1,17 @@
 ---
-title: Home
-layout: home
-custom-css:
-- source: testimonials
+title: Coming Soon
+layout: splash
 cover:
-  image: "/uploads/Andy-Cochrane_A36A0401.jpg"
+  image: "/uploads/Andy-Cochrane_A36A0464.jpg"
   credit: Andy Cochrane
   credit-link: https://www.instagram.com/andrewfitts/
-  headline: Ultras Aren’t Run&nbsp;Alone
-  description: 
+  headline: Patrick Reagan<br/>Running
+  description: New website coming soon.<br/>In the meantime, you can get in touch
+    via email.
   cta:
-    copy: Coaching Services
-    link: "/coaching"
+    copy: patrickreaganrunning@gmail.com
+    link: mailto:patrickreaganrunning@gmail.com
+custom-css:
+- source: splash
 ---
 
