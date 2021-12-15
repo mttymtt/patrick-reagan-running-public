@@ -30,7 +30,7 @@ layout: page
 
   <section class="tiers-container coaching" style="--tier-count: {% if counter > 4 %}4{% else %}{{ counter }}{% endif %}">
     {% for tier in coach.tiers %}
-      {% if tier.is-available == true %}<a class="tier available" href="{{ tier.url }}" {% if tier.on-click %}onclick="{{ tier.on-click }}"{% endif %}>{% else %}<div class="tier unavailable">{% endif %}
+      {% if tier.is-available == true %}<a class="tier available" href="{{ tier.info-url }}" {% if tier.on-click %}onclick="{{ tier.on-click }}"{% endif %}>{% else %}<div class="tier unavailable">{% endif %}
         <div class="tier-info">
           <div class="tier-title">
             <h2>{{ tier.name }}</h2>

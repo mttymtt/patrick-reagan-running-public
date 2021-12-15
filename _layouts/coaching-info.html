@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+{% for card in page.cards %}
+  <div class="width-s bg-white padding--m corner--all mb-l">
+    {{ card.description | markdownify }}
+    {% if card.cta %}
+      <div class="button">
+        <a href="{{ card.cta-link }}">{{ card.cta }}</a>
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}

@@ -1,6 +1,6 @@
 ---
-title: Standard Monthly Coaching with Patrick
-permalink: "/coaching/standard-monthly-with-patrick"
+title: Premium Monthly Coaching with Nicole
+permalink: "/coaching/premium-monthly-with-nicole"
 cover:
   image: "/uploads/wormsloe_sunira-moses.jpg"
   credit: Sunira Moses
@@ -23,6 +23,6 @@ cards:
 
     Ready to get started? You can pay for your first month below. Once we are up and running, you will have to continue making manual payments here, or you can sign up for the subscription below for automated monthly payments.
   cta: One-time $200
-  cta-link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCMJ8RMZ6JS2W"
+  cta-link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RCLCXRYMB6YD6"
 layout: coaching-info
 ---
