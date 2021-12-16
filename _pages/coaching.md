@@ -31,7 +31,7 @@ coaches:
       - Text communication as needed
     info-url: "/coaching/premium-monthly-with-patrick"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y9X4LVFG3GDK8
-    spots-available: 1
+    spots-available: 1 spot available
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
