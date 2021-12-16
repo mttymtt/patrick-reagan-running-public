@@ -31,7 +31,7 @@ coaches:
       - Text communication as needed
     info-url: "/coaching/premium-monthly-with-patrick"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y9X4LVFG3GDK8
-    spots-available: 
+    spots-available: 1
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -45,8 +45,8 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/standard-monthly-with-patrick"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCMJ8RMZ6JS2W
-    spots-available: 
-    is-available: true
+    spots-available: 0
+    is-available: false
   - name: Consultation
     subtitle: 1-on-1 Training Call
     price: "$70"
