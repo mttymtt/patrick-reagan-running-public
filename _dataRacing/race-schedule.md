@@ -21,6 +21,11 @@ races:
   distance: USATF 100K Road National Championships
   location: Madison, WI
   date: 2022-04-23 06:30:00 Z
+- name: Six Days in the Dome
+  url: https://www.ultrasignup.com/register.aspx?did=90523
+  distance: 100mi
+  location: Milwaukee, WI
+  date: 2022-06-17 09:00:00 Z
 - name: Spartathlon
   url: https://www.spartathlon.gr/en/
   distance: 153mi
