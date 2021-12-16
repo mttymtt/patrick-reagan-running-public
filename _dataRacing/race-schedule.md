@@ -11,6 +11,11 @@ races:
   distance: 100mi
   location: Henderson, NV
   date: 2022-02-18 00:00:00 Z
+- name: Seven Trails Ultra Festival
+  url: https://www.ultrasignup.com/register.aspx?did=88478
+  distance: 50K
+  location: Savannah, GA
+  date: 2022-04-01 00:00:00 Z
 - name: USATF 100K Road National Championships/Mad City 100K
   url: https://www.madcityultras.com/
   distance: 100K
