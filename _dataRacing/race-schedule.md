@@ -6,9 +6,9 @@ races:
   distance: 39.3mi
   location: Daufuskie Island, SC
   date: 2022-01-15 07:30:00 Z
-- name: USATF 100 Mile Road National Championships/Jackpot 100
+- name: Jackpot Ultra Running Festival
   url: https://ultrasignup.com/entrants_event.aspx?did=86313#id948761
-  distance: 100mi
+  distance: USATF 100mi Road National Championships
   location: Henderson, NV
   date: 2022-02-18 00:00:00 Z
 - name: Seven Trails Ultra Festival
@@ -16,9 +16,9 @@ races:
   distance: 50K
   location: Savannah, GA
   date: 2022-04-01 00:00:00 Z
-- name: USATF 100K Road National Championships/Mad City 100K
+- name: Mad City Ultras
   url: https://www.madcityultras.com/
-  distance: 100K
+  distance: USATF 100K Road National Championships
   location: Madison, WI
   date: 2022-04-23 06:30:00 Z
 - name: Spartathlon
