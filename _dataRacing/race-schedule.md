@@ -26,10 +26,15 @@ races:
   distance: 100mi
   location: Milwaukee, WI
   date: 2022-06-17 09:00:00 Z
+- name: Gravel Worlds
+  url: https://www.gravel-worlds.com/
+  distance: 50K Run--60K Ride
+  location: Lincoln, NE
+  date: 2022-08-19 08:00:00 Z
 - name: Spartathlon
   url: https://www.spartathlon.gr/en/
   distance: 153mi
   location: Athens to Sparta, Greece
-  date: 2022-09-29 00:00:00 Z
+  date: 2022-09-30 07:00:00 Z
 ---
 
