@@ -16,5 +16,10 @@ races:
   distance: 100K
   location: Madison, WI
   date: 2022-04-23 06:30:00 Z
+- name: Spartathlon
+  url: https://www.spartathlon.gr/en/
+  distance: 153mi
+  location: Athens to Sparta, Greece
+  date: 2022-09-29 00:00:00 Z
 ---
 
