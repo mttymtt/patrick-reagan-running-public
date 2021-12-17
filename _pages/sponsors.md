@@ -62,6 +62,9 @@ sponsors:
     roasts and if you can swing by their shop be sure to grab an espresso tonic.
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
+- description: 
+  image: "/uploads/UTWT_light_positif.png"
+  url: https://www.ultratrail-worldtour.com/
 layout: sponsors
 ---
 
