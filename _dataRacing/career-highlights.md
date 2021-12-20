@@ -7,6 +7,7 @@ highlights:
   description: Course record set in 2017
   year: 2017, 18, 19
 - name: USATF 100 Mile Trail National Champion
+  place: 1st
   year: 2019
   description: Brazos Bend 100 course record
 - name: IAU 100K World Championships Medalist
