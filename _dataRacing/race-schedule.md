@@ -18,7 +18,7 @@ races:
   date: 2022-04-01 00:00:00 Z
 - name: Mad City Ultras
   url: https://www.madcityultras.com/
-  distance: USATF 100K Road National Championships
+  distance: 50K
   location: Madison, WI
   date: 2022-04-23 06:30:00 Z
 - name: Six Days in the Dome
