@@ -62,6 +62,11 @@ sponsors:
     roasts and if you can swing by their shop be sure to grab an espresso tonic.
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
+- name: Rudy Project
+  description: 
+  image: "/uploads/RP%20logo_black_JPG.jpg"
+  url: https://www.rudyprojectna.com/
+Field name: 
 layout: sponsors
 ---
 
