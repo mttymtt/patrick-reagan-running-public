@@ -65,14 +65,14 @@ sponsors:
   description: 
   image: "/uploads/RP%20logo_black_JPG.jpg"
   url: https://www.rudyprojectna.com/
-- name: On Pace Wellness
-  description: 
-  image: "/uploads/OPW%20logo_CMYK%20(3).jpg"
-  url: https://www.onpacewellness.com/
 - name: Wharton Health
   description: 
   image: "/uploads/Wharton%20Logo.jpg"
   url: https://www.whartonhealth.com/
+- name: On Pace Wellness
+  description: 
+  image: "/uploads/OPW%20logo_CMYK%20(3).jpg"
+  url: https://www.onpacewellness.com/
 Field name: 
 layout: sponsors
 ---
