@@ -69,6 +69,10 @@ sponsors:
   description: 
   image: "/uploads/OPW%20logo_CMYK%20(3).jpg"
   url: https://www.onpacewellness.com/
+- name: Wharton Health
+  description: 
+  image: "/uploads/Wharton%20Logo.jpg"
+  url: https://www.whartonhealth.com/
 Field name: 
 layout: sponsors
 ---
