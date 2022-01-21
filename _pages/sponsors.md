@@ -31,8 +31,7 @@ sponsors:
 - name: Drymax Sports
   description: |-
     Drymax is a cutting edge sock company based in California. The socks
-    have unique technology that keeps the feet dry, comfortable, and blister free
-    in all conditions. Try the Max Protection Running and Hot Weather Running models.
+    have unique technology that keeps the feet dry, comfortable, and blister free in all conditions. Try the Max Protection Running and Hot Weather Running models.
   image: "/uploads/drymaxdirect.png"
   url: http://www.drymaxsports.com/
 - name: Compressport
@@ -58,7 +57,7 @@ sponsors:
 - name: Perc Coffee Roasters
   description: |-
     Perc Coffee Roasters for the time in between training and racing. Roasted
-    and brewed right here in Savannah by Philip Brown. I highly recommend their Ethopian
+    and brewed right here in Savannah by Philip Brown. I highly recommend their Ethopian and Columbian
     roasts and if you can swing by their shop be sure to grab an espresso tonic.
   image: "/uploads/perc_logo-01.png"
   url: https://perccoffee.com
@@ -66,6 +65,10 @@ sponsors:
   description: 
   image: "/uploads/RP%20logo_black_JPG.jpg"
   url: https://www.rudyprojectna.com/
+- name: On Pace Wellness
+  description: 
+  image: "/uploads/OPW%20logo_CMYK%20(3).jpg"
+  url: https://www.onpacewellness.com/
 Field name: 
 layout: sponsors
 ---
