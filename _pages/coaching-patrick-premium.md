@@ -8,7 +8,7 @@ cover:
   mobile-position:
     horizontal: 30%
 cards:
-- card: 
+- card:
   description: |-
     ## Let’s get to know each other
 
@@ -17,13 +17,12 @@ cards:
     We recommend that you start with a consultation to get to know the coach you will be working with.
   cta: Book a consultation
   cta-link: "/consultation"
-- card: 
+- card:
   description: |-
     ## Initial Set Up & Manual Monthly Payments
 
     Ready to get started? You can pay for your first month below. Once we are up and running, you will have to continue making manual payments here, or you can sign up for the subscription below for automated monthly payments.
-  cta: One-time $200
+  cta: One-time $350
   cta-link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y9X4LVFG3GDK8
 layout: coaching-info
 ---
-

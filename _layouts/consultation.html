@@ -13,8 +13,12 @@ layout: default
       <div class="button">
         <a href="{{ coach.paypal-link }}">{{ coach.paypal-link-text }}</a>
       </div>
-      <div class="calendly-inline-widget" data-url="{{ coach.calendly-url }}?primary_color=6ca04b" style="min-width:320px;height:908px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      {% if coach.show-calendly %}
+        {% if coach.calendly-url %}
+          <div class="calendly-inline-widget" data-url="{{ coach.calendly-url }}?primary_color=6ca04b" style="min-width:320px;height:908px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        {% endif %}
+      {% endif %}
     </div>
   {% endfor %}
 </div>
