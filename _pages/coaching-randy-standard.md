@@ -8,7 +8,7 @@ cover:
   mobile-position:
     horizontal: 30%
 cards:
-- card:
+- card: 
   description: |-
     ## Let’s get to know each other
 
@@ -17,7 +17,7 @@ cards:
     We recommend that you start with a consultation to get to know the coach you will be working with.
   cta: Book a consultation
   cta-link: "/consultation"
-- card:
+- card: 
   description: |-
     ## Initial Set Up & Manual Monthly Payments
 
@@ -26,3 +26,4 @@ cards:
   cta-link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M3MT89E7X6D6J
 layout: coaching-info
 ---
+
