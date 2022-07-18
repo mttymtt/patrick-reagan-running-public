@@ -6,11 +6,11 @@ races:
   distance: 100 Miles
   location: Savannah, GA
   date: 2023-01-20 07:00:00 Z
-- name: Badwater Salton Sea
-  url: https://www.badwater.com/event/badwater-salton-sea/
-  distance: 81mi (3 person team)
-  location: Death Valley, CA
-  date: 2023-04-29 07:00:00 Z
+- name: Umstead 100 Mile Endurance Run
+  url: umstead100.org
+  distance: 100 miles
+  location: Raleigh, NC
+  date: 2023-04-01 00:00:00 Z
 - name: Spartathlon
   url: https://www.spartathlon.gr/en/
   distance: 153mi
