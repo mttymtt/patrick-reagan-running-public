@@ -16,7 +16,7 @@ sponsors:
     racing in a wide array of neutral shoes in the line. My favorite Hoka One One
     shoes are the Clifton, Clayton, Bondi, Speedgoat, Challenger ATR, Tracer, and
     Speed Instinct. The Ora Slide is my favorite recovery footwear.
-  image: "/uploads/HOKA_logo.svg"
+  image: "/uploads/HOKA-Logo-late-2021.png"
   url: http://www.hokaoneone.com/
   size: large
 - name: GU Energy
@@ -34,16 +34,16 @@ sponsors:
     have unique technology that keeps the feet dry, comfortable, and blister free in all conditions. Try the Max Protection Running and Hot Weather Running models.
   image: "/uploads/drymaxdirect.png"
   url: http://www.drymaxsports.com/
+- name: UltrAspire
+  description: UltrAspire has become my go to for hydration needs.
+  image: "/uploads/Ultraspire-Logo.png"
+  url: https://ultraspire.com/
 - name: Compressport
   description: |-
     Compressport is a medical grade compression company based in Switzerland.
     I wear the R2 Calf Sleeves while training, racing, and recovering.
   image: "/uploads/compressport-vector-logo.svg"
   url: http://www.compressport.com/
-- name: UltrAspire
-  description: UltrAspire has become my go to for hydration needs.
-  image: "/uploads/Ultraspire-Logo.png"
-  url: https://ultraspire.com/
 - name: Squirrel’s Nut Butter
   description: |-
     Squirrel’s Nut Butter is an all natural anti-chaffing skin salve that
