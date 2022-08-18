@@ -40,41 +40,49 @@ races:
   url: 
   distance: Marathon
   time: '2:42:54'
-  overall-place: '2'
-  gender-place: '2'
+  overall-place: 2
+  gender-place: 2
   location: Daufuskie Island, SC
   date: 2020-01-18 00:00:00 Z
 - name: Tarawera Ultras
   url: 
   distance: 102k
   time: '8:55:43'
-  overall-place: '6'
-  gender-place: '6'
+  overall-place: 6
+  gender-place: 6
   location: Rotorua, NZL
   date: 2020-02-08 00:00:00 Z
 - name: The Yeti 100mi Endurance Run
   url: https://ultrasignup.com/results_event.aspx?did=71529#id948761
   distance: 100mi
   time: '13:33:54'
-  overall-place: '1'
-  gender-place: '1'
+  overall-place: 1
+  gender-place: 1
   location: Abingdon, VA
   date: 2020-09-25 00:00:00 Z
 - name: Jackpot Ultra
   url: https://ultrasignup.com/results_event.aspx?did=76133#id948761
   distance: 100mi
   time: '14:51:53'
-  overall-place: '6'
-  gender-place: '3'
+  overall-place: 6
+  gender-place: 3
   location: Henderson, NV
   date: 2021-04-23 00:00:00 Z
 - name: Western States
   url: https://ultrasignup.com/results_event.aspx?did=79446#id948761
   distance: 100mi
   time: '19:30:23'
-  overall-place: '19'
-  gender-place: '11'
+  overall-place: 19
+  gender-place: 11
   location: Olympic Valley, CA
   date: 2021-06-26 00:00:00 Z
+- name: Daufuskie Island Ultramarathon
+  url: https://ultrasignup.com/results_event.aspx?did=82484#id948761
+  distance: 39.3 miles
+  time: '4:28.08'
+  overall-place: 1
+  gender-place: 1
+  location: Daufuskie Island, SC
+  date: 2022-01-15 00:00:00 Z
 ---
 
