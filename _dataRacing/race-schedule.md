@@ -8,7 +8,7 @@ races:
   date: 2022-10-29 06:00:00 Z
 - name: Dark Anchor Ultra Festival
   url: https://yetitrailrunners.com/run/dark_anchor_ultra_festival/
-  distance: 100K
+  distance: 50 miles
   location: Savannah, GA
   date: 2023-01-20 07:00:00 Z
 - name: Umstead 100 Mile Endurance Run
