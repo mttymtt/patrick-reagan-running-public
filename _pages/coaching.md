@@ -31,11 +31,11 @@ coaches:
       - Text communication as needed
     info-url: "/coaching/premium-monthly-with-patrick"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y9X4LVFG3GDK8
-    spots-available: 1 spot available
-    is-available: true
+    spots-available: 0 spots available
+    is-available: false
   - name: Standard
     subtitle: Personalized Monthly Coaching
-    price: "$200"
+    price: "$225"
     price-time-unit: "/mo"
     perks-description: |-
       - Daily training updated in training document
@@ -55,7 +55,7 @@ coaches:
       race day nutrition program, proper thermoregulation/topical cooling for hot
       weather races, or any other ultra running specific topics you may have.
     info-url: "/consultation"
-    spots-available: 4 spots available per week
+    spots-available: 2 spots available per week
     is-available: true
 - name: Nicole Monette
   headshot:
