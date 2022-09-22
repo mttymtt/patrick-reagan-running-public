@@ -1,6 +1,5 @@
 ---
 title: About
-layout: page
 cover:
   image: "/uploads/Javelina_2019_Paul-Nelson_01.jpg"
   credit: Paul Nelson
@@ -19,7 +18,7 @@ page-content:
   type: text
   description: |-
     # The Low Down
-    Patrick has twenty years of running experience and has been coaching endurance athletes for ten years.  He is a native of Southwestern PA and obtained a B.S. in Exercise Science while competing in Cross Country/Track and Field at Slippery Rock University. Patrick runs professionally for HOKA One One and GU Energy Labs.
+    Patrick has twenty years of running experience and has been coaching endurance athletes for ten years.  He  grew up in Southwestern PA and obtained a B.S. in Exercise Science while competing in Cross Country/Track and Field at Slippery Rock University. Patrick runs professionally for HOKA One One and GU Energy Labs.
 - section: 
   type: gallery
   width: full
@@ -57,5 +56,6 @@ page-content:
     Patrick has finished on the podium three times at the Ultravasan 90K in 2016-2018.  In 2020, Patrick won the Yeti 100 Mile Endurance Run setting a new course record en route. Patrick’s marks in the 50 mile (5:08), 100K (6:33), and 100 mile (12:21) distances all sit on the All-Time Top 10 north American Lists.
 
     Patrick was inducted to the Slippery Rock University Athletic Hall of Fame in 2021.  He lives in Savannah, GA with his wife Adrienne, their two dogs, and two cats.
+layout: page
 ---
 
