@@ -49,7 +49,7 @@ coaches:
     is-available: false
   - name: Consultation
     subtitle: 1-on-1 Training Call
-    price: "$70"
+    price: "$80"
     perks-description: |-
       **One hour** call to discuss training concepts, weekly training, race schedule,
       race day nutrition program, proper thermoregulation/topical cooling for hot
