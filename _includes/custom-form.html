@@ -46,6 +46,10 @@
       </div>
     {% endfor %}
 
+    {% if section.is-captcha %}
+      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+    {% endif %}
+
     <input type="hidden" name="_subject" id="email-subject" value="Coaching Inquiry">
   </fieldset>
   <div class="button large"><input type="submit" value="Send"></div>

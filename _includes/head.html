@@ -35,4 +35,16 @@
         <link rel="stylesheet" href="/assets/css/custom/{{ css.source }}.css">
       {% endfor %}
     {% endif %}
+
+    {% if site.captcha-key %}
+      <script src="https://www.google.com/recaptcha/api.js?render={{ site.captcha-key }}"></script>
+      <script>
+          grecaptcha.ready(function () {
+              grecaptcha.execute('{{ site.captcha-key }}', {action: 'submit'}).then(function (token) {
+                  console.info("got token: " + token);
+                  document.getElementById('g-recaptcha-response').value = token;
+              });
+          });
+      </script>
+    {% endif %}
   </head>
