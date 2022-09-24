@@ -60,8 +60,8 @@ coaches:
 - name: Nicole Monette
   headshot:
     image: "/uploads/Nicole-Monette_Portrait.jpg"
-    credit:
-    credit-url:
+    credit: 
+    credit-url: 
   bio-text: |-
     Nicole is a native of Southeastern Michigan and currently resides in Brandon, Michigan with her husband, Patrick, and their three children: Peter, Jacob, and Madelyn. She attended Indiana University of Pennsylvania, earning a B.S. in exercise science, while also competing in cross country and track and field. She then went on to Slippery Rock University, earning a Doctorate of Physical Therapy. She currently runs ultramarathons for Hoka One One.
 
@@ -81,7 +81,7 @@ coaches:
       - Text communication as needed
     info-url: "/coaching/premium-monthly-with-nicole"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RCLCXRYMB6YD6
-    spots-available:
+    spots-available: 
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -95,7 +95,7 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/standard-monthly-with-nicole"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WDTUXTKLQ8PPQ
-    spots-available:
+    spots-available: 
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -110,8 +110,8 @@ coaches:
 - name: Randy Taylor
   headshot:
     image: "/uploads/Randy-Taylor_Portrait_01.jpg"
-    credit:
-    credit-url:
+    credit: 
+    credit-url: 
   bio-text: |-
     Randy was born, raised and currently lives in Kansas City Missouri with his wife Briana and their three children: Leila, Levi and Lincoln. He attended the University of Central Missouri, and although nearly graduated as a physical education major he switched at the last second and finished with a BS in Business Management. Through high school and college Randy was a dedicated wrestler which led to his love for sport, training and coaching. Post college he has coached wrestling at many different levels for 10+ years and knows he wants coaching to be a part of his life for the long haul.
 
@@ -131,7 +131,7 @@ coaches:
       - Text communication as needed
     info-url: "/coaching/premium-monthly-with-randy"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGDT3XPD78E98
-    spots-available:
+    spots-available: 
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -145,7 +145,7 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/standard-monthly-with-randy"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M3MT89E7X6D6J
-    spots-available:
+    spots-available: 
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
@@ -160,8 +160,8 @@ coaches:
 - name: Will Benitez
   headshot:
     image: "/uploads/Will_Headshot.jpeg"
-    credit:
-    credit-url:
+    credit: 
+    credit-url: 
   bio-text: |-
     Will is a performance-focused nutritionist, specializing in working with runners to help them increase their performance potential, improve their recovery, and remain injury-free (as best as possible). Optimizing nutrition takes time and habits need to form, so Will guides his clients through a process he designed that helps to work in nutrition changes on a weekly basis and is meant to sustain the nutrition work that is taking place.
 
@@ -171,7 +171,7 @@ coaches:
 
     <div class="button"><a href="https://www.onpacewellness.com">On Pace Wellness</a></div>
 page-content:
-- section:
+- section: 
   type: text
   width: large
   description: |-
@@ -185,3 +185,4 @@ page-content:
     </div>
 layout: coaching
 ---
+
