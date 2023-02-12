@@ -45,8 +45,8 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/standard-monthly-with-patrick"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WCMJ8RMZ6JS2W
-    spots-available: 0
-    is-available: false
+    spots-available: 1
+    is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
     price: "$80"
