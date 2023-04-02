@@ -16,6 +16,11 @@ races:
   distance: 100 Miles
   location: Abingdon, VA
   date: 2023-09-29 07:00:00 Z
+- name: Tunnel Hill 100
+  url: ultrasignup.com/register.aspx?did=101007
+  distance: 100 miles
+  location: Vienna, IL
+  date: 2023-11-11 00:00:00 Z
 - name: Umstead 100 Mile Endurance Run
   url: umstead100.org
   distance: 100 miles
