@@ -13,6 +13,10 @@ highlights:
 - name: IAU 100K World Championships Medalist
   place: 3rd
   year: 2016
+- name: Yeti 100 Mile Endurance Record Champ
+  place: 1st
+  year: 2020
+  description: Yeti 100 Course Record
 - name: Ultravasan 90K
   place: Top 3
   year: 2016, 17, 18
