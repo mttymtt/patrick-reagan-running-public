@@ -1,25 +1,20 @@
 ---
 title: Race Schedule
 races:
-- name: Javelina Jundred
-  url: https://ultrasignup.com/register.aspx?did=90708
-  distance: 100 miles
-  location: Fountain Hills, AZ
-  date: 2022-10-29 06:00:00 Z
-- name: Dark Anchor Ultra Festival
-  url: https://yetitrailrunners.com/run/dark_anchor_ultra_festival/
-  distance: 50 miles
+- name: Bronze Dragonfly
+  url: ultrasignup.com/register.aspx?did=95013
+  distance: 6 Hour
   location: Savannah, GA
-  date: 2023-01-20 07:00:00 Z
-- name: Umstead 100 Mile Endurance Run
-  url: umstead100.org
-  distance: 100 miles
-  location: Raleigh, NC
+  date: 2023-04-29 07:00:00 Z
+- name: Dam Yeti 55K
+  url: yetitrailrunners.com/dam-yeti-50-miler-55k/
+  distance: 55K
+  location: Abingdon, VA
   date: 2023-04-01 00:00:00 Z
-- name: Spartathlon
-  url: https://www.spartathlon.gr/en/
-  distance: 153mi
-  location: Athens to Sparta, Greece
-  date: 2023-09-30 07:00:00 Z
+- name: Yeti 100 Mile Endurance Run
+  url: yetitrainrunners.com/yeti_100_va/
+  distance: 100 Miles
+  location: Abingdon, VA
+  date: 2023-09-29 07:00:00 Z
 ---
 
