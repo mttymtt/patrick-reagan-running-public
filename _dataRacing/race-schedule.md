@@ -16,5 +16,10 @@ races:
   distance: 100 Miles
   location: Abingdon, VA
   date: 2023-09-29 07:00:00 Z
+- name: Umstead 100 Mile Endurance Run
+  url: umstead100.org
+  distance: 100 miles
+  location: Raleigh, NC
+  date: 2024-03-30 00:00:00 Z
 ---
 
