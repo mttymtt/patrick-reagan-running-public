@@ -84,5 +84,13 @@ races:
   gender-place: 1
   location: Daufuskie Island, SC
   date: 2022-01-15 00:00:00 Z
+- name: Javelina Jundred
+  url: ultrasignup.com/results_event.aspx?did=90708#id948761
+  distance: 100 miles
+  time: '15:44.28'
+  overall-place: 14
+  gender-place: 8
+  location: Fountain Hills, AZ
+  date: 2022-10-29 00:00:00 Z
 ---
 
