@@ -157,6 +157,56 @@ coaches:
     info-url: "/consultation"
     spots-available: 2 spots available per week
     is-available: true
+- name: Kris Brown
+  headshot:
+    image: "/uploads/Kris-Brown_Headshot.jpg"
+    credit: 
+    credit-url: 
+  bio-text: |-
+    Kris is a professional ultra runner for HOKA and rabbit with world class performances ranging from 50k to 100 miles on both trails and road. An athlete who prides himself on his versatility, he can often be found racing local 5ks, uphill races, downhill races, and the occasional beer mile. He also spent two years as a professional obstacle course racer, but that's another story.
+
+    A former NCAA Division III runner, Kris's coaching style is rooted in his experience as a collegiate athlete, but accented heavily by the more free-form training style typical of ultrarunners. He has helped numerous runners finish their first ultras, and has coached athletes to PRs at just about every distance.
+
+    Kris and Pat share a love of obscure and sometimes pretty extreme music, and while he tries not to be pretentious about it, he's also pretty knowledgeable about wine, beer, and fine dining. In fact, he used to own a restaurant, and insanely enough, despite that failure he still dreams of opening another one.
+  tiers:
+  - name: Flagship
+    subtitle: Personalized Monthly Coaching
+    price: "$150"
+    price-time-unit: "/mo"
+    perks-description: |-
+      - Daily training updated in training document
+      - Monthly 30 minute call to discuss training
+      - Access to core strength and weight vest strength training guides
+      - Race schedule planning
+      - Weekly check-ins on coaching platform
+    info-url: "/coaching/flagship-monthly-with-kris"
+    payment-url: 
+    spots-available: 
+    is-available: false
+  - name: Standard
+    subtitle: Personalized Monthly Coaching
+    price: "$200"
+    price-time-unit: "/mo"
+    perks-description: |-
+      - Daily training updated in training document
+      - Monthly 30 minute call to discuss training
+      - Access to core strength and weight vest strength training guides
+      - Race schedule planning
+      - Weekly check-ins on coaching platform
+    info-url: "/coaching/standard-monthly-with-kris"
+    payment-url: 
+    spots-available: 
+    is-available: false
+  - name: Consultation
+    subtitle: 1-on-1 Training Call
+    price: "$70"
+    perks-description: |-
+      **One hour** call to discuss training concepts, weekly training, race schedule,
+      race day nutrition program, proper thermoregulation/topical cooling for hot
+      weather races, or any other ultra running specific topics you may have.
+    info-url: "/consultation"
+    spots-available: 2 spots available per week
+    is-available: true
 - name: Will Benitez
   headshot:
     image: "/uploads/Will_Headshot.jpeg"

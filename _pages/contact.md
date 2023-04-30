@@ -30,11 +30,12 @@ page-content:
     type: dropdown
     unique-block-code: coach
     label: Who would you like to connect with?
-    placeholder-text: Patrick, Nicole or Randy?
+    placeholder-text: Select a coach
     options:
     - option: Patrick
     - option: Nicole
     - option: Randy
+    - option: Kris
     - option: No preference
     is-required: true
   - block: 

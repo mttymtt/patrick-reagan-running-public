@@ -10,9 +10,16 @@ layout: default
   {% for coach in page.coaches %}
     <div class="col col-1of2 mb-xl">
       <h1>{{ coach.name | split: ' ' | first }}’s Calendar</h1>
-      <div class="button">
-        <a href="{{ coach.paypal-link }}">{{ coach.paypal-link-text }}</a>
-      </div>
+      {% if coach.paypal-link %}
+        <div class="button">
+          <a href="{{ coach.paypal-link }}">{{ coach.paypal-link-text }}</a>
+        </div>
+      {% else %}
+        <div class="button">
+          No availability, check back soon!
+        </div>
+      {% endif %}
+
       {% if coach.show-calendly %}
         {% if coach.calendly-url %}
           <div class="calendly-inline-widget" data-url="{{ coach.calendly-url }}?primary_color=6ca04b" style="min-width:320px;height:908px;"></div>
