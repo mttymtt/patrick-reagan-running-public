@@ -30,6 +30,8 @@ highlights:
   year: 2007, 2008
 - name: USATF Ted Corbitt Ultrarunner of the Year
   year: 2017
+- name: 'USATF Georgia State Record Holder '
+  year: 2023- 100 miles and 100K
 - name: Slippery Rock Hall of Fame
   year: 2021
 ---
