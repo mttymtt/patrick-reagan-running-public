@@ -7,7 +7,11 @@ layout: page
     {{ card.description | markdownify }}
     {% if card.cta %}
       <div class="button">
-        <a href="{{ card.cta-link }}">{{ card.cta }}</a>
+        {% if card.cta-link %}
+          <a href="{{ card.cta-link }}">{{ card.cta }}</a>
+        {% else %}
+          <a href="/contact">Contact us for initial payment</a>
+        {% endif %}
       </div>
     {% endif %}
   </div>

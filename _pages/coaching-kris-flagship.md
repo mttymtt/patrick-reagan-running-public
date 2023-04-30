@@ -1,6 +1,6 @@
 ---
 title: Flagship Monthly Coaching with Kris
-permalink: "/coaching/premium-monthly-with-kris"
+permalink: "/coaching/flagship-monthly-with-kris"
 cover:
   image: "/uploads/wormsloe_sunira-moses.jpg"
   credit: Sunira Moses
@@ -22,8 +22,8 @@ cards:
     ## Initial Set Up & Manual Monthly Payments
 
     Ready to get started? You can pay for your first month below. Once we are up and running, you will have to continue making manual payments here, or you can sign up for the subscription below for automated monthly payments.
-  cta: One-time $350
-  cta-link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y9X4LVFG3GDK8
+  cta: One-time $150
+  cta-link: 
 layout: coaching-info
 ---
 

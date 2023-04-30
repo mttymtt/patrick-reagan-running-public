@@ -182,7 +182,7 @@ coaches:
     info-url: "/coaching/flagship-monthly-with-kris"
     payment-url: 
     spots-available: 
-    is-available: false
+    is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
     price: "$200"
@@ -196,7 +196,7 @@ coaches:
     info-url: "/coaching/standard-monthly-with-kris"
     payment-url: 
     spots-available: 
-    is-available: false
+    is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
     price: "$70"
