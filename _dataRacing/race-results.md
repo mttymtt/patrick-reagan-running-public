@@ -92,7 +92,7 @@ races:
   gender-place: 8
   location: Fountain Hills, AZ
   date: 2022-10-29 00:00:00 Z
-- name: Bronze Dragonfly 100 Miler
+- name: Bronze Dragonfly Ultra
   url: https://ultrasignup.com/register.aspx?did=95013
   distance: 100 miles
   time: '14:17.08'
