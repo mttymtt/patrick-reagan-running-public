@@ -3,7 +3,7 @@ title: Race Schedule
 races:
 - name: Bronze Dragonfly
   url: ultrasignup.com/register.aspx?did=95013
-  distance: 6 Hour
+  distance: 100 miles
   location: Savannah, GA
   date: 2023-04-29 07:00:00 Z
 - name: Dam Yeti 55K
