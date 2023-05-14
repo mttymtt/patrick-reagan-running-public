@@ -181,7 +181,7 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/flagship-monthly-with-kris"
     payment-url: 
-    spots-available: 
+    spots-available: 2 spots available
     is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
@@ -195,7 +195,7 @@ coaches:
       - Weekly check-ins on coaching platform
     info-url: "/coaching/standard-monthly-with-kris"
     payment-url: 
-    spots-available: 
+    spots-available: 3 spots available
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
