@@ -31,10 +31,10 @@ coaches:
   show-calendly: true
   calendly-url: https://calendly.com/rwtcoaching/consultation
 - name: Kris Brown
-  paypal-link: 
+  paypal-link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=JHZWYUSLA7P24&lc=US&item_name=Consultation%20with%20Kris%20Brown&amount=70%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
   paypal-link-text: Book with Kris • $70
   show-calendly: false
-  calendly-url: https://calendly.com/patrick-reagan-running/60min
+  calendly-url: 
 extra-description: |-
   ## Need a different time?
   If the prescribed windows of time don’t work for you, don’t worry—we’re flexible. Just reach out via [email](/contact) and let us know what your availability is.
