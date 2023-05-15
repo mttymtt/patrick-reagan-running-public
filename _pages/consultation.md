@@ -31,7 +31,7 @@ coaches:
   show-calendly: true
   calendly-url: https://calendly.com/rwtcoaching/consultation
 - name: Kris Brown
-  paypal-link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=JHZWYUSLA7P24&lc=US&item_name=Consultation%20with%20Kris%20Brown&amount=70%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
+  paypal-link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=JHZWYUSLA7P24&lc=US&item_name=Consultation%20with%20Kris%20Brown&amount=70%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted
   paypal-link-text: Book with Kris • $70
   show-calendly: false
   calendly-url: 

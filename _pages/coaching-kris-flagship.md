@@ -23,7 +23,7 @@ cards:
 
     Ready to get started? You can pay for your first month below. Once we are up and running, you will have to continue making manual payments here, or you can sign up for the subscription below for automated monthly payments.
   cta: One-time $150
-  cta-link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=JHZWYUSLA7P24&lc=US&item_name=Flagship%20Monthly%20Coaching%20Program%20with%20Kris%20Brown&amount=150%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
+  cta-link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=JHZWYUSLA7P24&lc=US&item_name=Flagship%20Monthly%20Coaching%20Program%20with%20Kris%20Brown&amount=150%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted
 layout: coaching-info
 ---
 
