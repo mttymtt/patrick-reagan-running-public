@@ -61,5 +61,9 @@ features:
   url: https://www.hokaoneone.com/blog-post/?id=stringing-hundreds-patrick-reagan
   date: 2020-08-24 00:00:00 Z
   type: Article
+- name: Ginger Runner Live!
+  url: https://www.youtube.com/watch?v=KO8QQFfRoqQ&ab_channel=TheGingerRunner
+  date: 2019-11-01 00:00:00 Z
+  type: 
 ---
 
