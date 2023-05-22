@@ -10,7 +10,7 @@ races:
   url: yetitrailrunners.com/dam-yeti-50-miler-55k/
   distance: 55K
   location: Abingdon, VA
-  date: 2023-04-01 00:00:00 Z
+  date: 2023-06-03 00:00:00 Z
 - name: Yeti 100 Mile Endurance Run
   url: yetitrainrunners.com/yeti_100_va/
   distance: 100 Miles
