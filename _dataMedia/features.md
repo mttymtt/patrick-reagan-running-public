@@ -64,6 +64,10 @@ features:
 - name: Ginger Runner Live!
   url: https://www.youtube.com/watch?v=KO8QQFfRoqQ&ab_channel=TheGingerRunner
   date: 2019-11-01 00:00:00 Z
-  type: 
+  type: Youtube
+- name: 'Trail Runner Nation- Episode #623'
+  url: https://trailrunnernation.com/2023/05/ep-623-from-good-to-great-choosing-a-trail-running-coach/
+  date: 2023-05-16 00:00:00 Z
+  type: Podcast
 ---
 
