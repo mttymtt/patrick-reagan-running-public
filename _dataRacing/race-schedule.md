@@ -26,5 +26,10 @@ races:
   distance: 100 miles
   location: Raleigh, NC
   date: 2024-03-30 00:00:00 Z
+- name: Daufuskie Island 50 Miler
+  url: https://ultrasignup.com/register.aspx?did=103214
+  distance: 50 Miles
+  location: Daufuskie Island, SC
+  date: 2024-03-02 00:00:00 Z
 ---
 
