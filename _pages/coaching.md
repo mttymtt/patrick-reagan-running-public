@@ -107,56 +107,6 @@ coaches:
     info-url: "/consultation"
     spots-available: 4 spots available per week
     is-available: true
-- name: Randy Taylor
-  headshot:
-    image: "/uploads/Randy-Taylor_Portrait_01.jpg"
-    credit: 
-    credit-url: 
-  bio-text: |-
-    Randy was born, raised and currently lives in Kansas City Missouri with his wife Briana and their three children: Leila, Levi and Lincoln. He attended the University of Central Missouri, and although nearly graduated as a physical education major he switched at the last second and finished with a BS in Business Management. Through high school and college Randy was a dedicated wrestler which led to his love for sport, training and coaching. Post college he has coached wrestling at many different levels for 10+ years and knows he wants coaching to be a part of his life for the long haul.
-
-    Randy came to running a bit later in life as he was looking for something to re-dedicate his own fitness journey to. Thinking he would be a one and done marathon runner he quickly fell in love with distance, challenging himself and the running community. This led to a quick progression into the ultra distances where he has been a top 10 finisher at Javelina 100 twice (2020 and 2021), put down a 3:35 50k PB, a 6:07 50 mile PB and has ran many other marathons and ultras. Combining his love for coaching and running has been a natural progression and something that is truly a dream job!
-
-    Randy works as a custom fabricator and run coach but also enjoys cooking, traveling, camping, rock climbing and pretty much anything else he can do outdoors with his family.
-  tiers:
-  - name: Premium
-    subtitle: Personalized Monthly Coaching
-    price: "$265"
-    price-time-unit: "/mo"
-    perks-description: |-
-      - All of the bells & whistles of the Standard Program
-      - Two monthly 45 minute calls to discuss training
-      - Race schedule planning calls each season (Twice a year)
-      - Daily check-ins on Coaching Platform
-      - Text communication as needed
-    info-url: "/coaching/premium-monthly-with-randy"
-    payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGDT3XPD78E98
-    spots-available: 
-    is-available: true
-  - name: Standard
-    subtitle: Personalized Monthly Coaching
-    price: "$150"
-    price-time-unit: "/mo"
-    perks-description: |-
-      - Daily training updated in training document
-      - Monthly 30 minute call to discuss training
-      - Access to core strength and weight vest strength training guides
-      - Race schedule planning
-      - Weekly check-ins on coaching platform
-    info-url: "/coaching/standard-monthly-with-randy"
-    payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M3MT89E7X6D6J
-    spots-available: 
-    is-available: true
-  - name: Consultation
-    subtitle: 1-on-1 Training Call
-    price: "$60"
-    perks-description: |-
-      **One hour** call to discuss training concepts, weekly training, race schedule,
-      race day nutrition program, proper thermoregulation/topical cooling for hot
-      weather races, or any other ultra running specific topics you may have.
-    info-url: "/consultation"
-    spots-available: 2 spots available per week
-    is-available: true
 - name: Kris Brown
   headshot:
     image: "/uploads/Kris-Brown_Headshot.jpg"
