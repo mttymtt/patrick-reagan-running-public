@@ -69,20 +69,6 @@ coaches:
 
     Nicole has worked as an outpatient physical therapist in sports medicine and orthopedics for over ten years, and when not running, working, or coaching enjoys spending time with her young family exploring the outdoors.
   tiers:
-  - name: Premium
-    subtitle: Personalized Monthly Coaching
-    price: "$350"
-    price-time-unit: "/mo"
-    perks-description: |-
-      - All of the bells & whistles of the Standard Program
-      - Two monthly 45 minute calls to discuss training
-      - Race schedule planning calls each season (Twice a year)
-      - Daily check-ins on Coaching Platform
-      - Text communication as needed
-    info-url: "/coaching/premium-monthly-with-nicole"
-    payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RCLCXRYMB6YD6
-    spots-available: 
-    is-available: true
   - name: Standard
     subtitle: Personalized Monthly Coaching
     price: "$200"
@@ -96,6 +82,18 @@ coaches:
     info-url: "/coaching/standard-monthly-with-nicole"
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WDTUXTKLQ8PPQ
     spots-available: 
+    is-available: true
+  - name: Consultation
+    subtitle: 1-on-1 Training Call
+    price: "$70"
+    price-time-unit: "/mo"
+    perks-description: |-
+      **One hour** call to discuss training concepts, weekly training, race schedule,
+      race day nutrition program, proper thermoregulation/topical cooling for hot
+      weather races, or any other ultra running specific topics you may have.
+    info-url: "/consultation"
+    payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RCLCXRYMB6YD6
+    spots-available: 4 spots available per week
     is-available: true
   - name: Consultation
     subtitle: 1-on-1 Training Call
