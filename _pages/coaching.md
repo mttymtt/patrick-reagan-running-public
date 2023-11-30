@@ -95,16 +95,6 @@ coaches:
     payment-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RCLCXRYMB6YD6
     spots-available: 4 spots available per week
     is-available: true
-  - name: Consultation
-    subtitle: 1-on-1 Training Call
-    price: "$70"
-    perks-description: |-
-      **One hour** call to discuss training concepts, weekly training, race schedule,
-      race day nutrition program, proper thermoregulation/topical cooling for hot
-      weather races, or any other ultra running specific topics you may have.
-    info-url: "/consultation"
-    spots-available: 4 spots available per week
-    is-available: true
 - name: Kris Brown
   headshot:
     image: "/uploads/Kris-Brown_Headshot.jpg"
